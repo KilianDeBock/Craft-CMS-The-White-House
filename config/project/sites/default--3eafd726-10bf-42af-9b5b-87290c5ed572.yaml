@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: 'Craft White House'
 primary: true
-siteGroup: c473eca2-49ef-44f4-9454-b7cb1cffa330
+siteGroup: c473eca2-49ef-44f4-9454-b7cb1cffa330 # Craft White House
 sortOrder: 1

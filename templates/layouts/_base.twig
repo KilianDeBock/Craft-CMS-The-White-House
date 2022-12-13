@@ -7,16 +7,16 @@
     <title>{{ title ?? 'PGM Website' }}</title>
 </head>
 <body>
-    {% include "components/nav" %}
+{% include "components/_header" %}
 
-    <main class="main">
-        {% block content %}{% endblock %}
-    </main>
+<main class="main">
+    {% block content %}{% endblock %}
+</main>
 
-    {% include "components/footer" %}
+{% include "components/_footer" %}
 
-    {% block bottomScripts %}
-        {% include "partials/_scripts" %}
-    {% endblock %}
+{% block bottomScripts %}
+    {% include "partials/_scripts" %}
+{% endblock %}
 </body>
 </html>
