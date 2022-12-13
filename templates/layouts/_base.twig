@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "partials/_meta" %}
+
+    <link rel="stylesheet" href="{{ mix('app.css') }}">
+    <title>{{ title ?? 'PGM Website' }}</title>
+</head>
+<body>
+    {% include "components/nav" %}
+
+    <main class="main">
+        {% block content %}{% endblock %}
+    </main>
+
+    {% include "components/footer" %}
+
+    {% block bottomScripts %}
+        {% include "partials/_scripts" %}
+    {% endblock %}
+</body>
+</html>

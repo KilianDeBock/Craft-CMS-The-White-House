@@ -7,6 +7,9 @@ logs
 .git
 cogs/.DS_Store
 .DS_Store
+/.env
+/.idea
+/vendor
 
 # Logs
 logs

@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as v;
+
+.lang-item {
+    text-decoration: none;
+    color: v.$dark;
+    margin: 0 v.$spacing-sm;
+}
+
+.lang-item--active {
+    color: v.$primary;
+}

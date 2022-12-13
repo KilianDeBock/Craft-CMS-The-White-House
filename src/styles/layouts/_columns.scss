@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixin' as m;
+
+@include m.screen (v.$md) {
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

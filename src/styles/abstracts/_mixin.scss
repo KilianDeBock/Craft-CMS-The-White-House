@@ -1,0 +1,7 @@
+@use './variables' as v;
+
+@mixin screen ($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}

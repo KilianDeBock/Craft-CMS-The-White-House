@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as v;
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: v.$gray;
+    color: v.$dark;
+}
+
+.main {
+    flex: 1 0 auto;
+}

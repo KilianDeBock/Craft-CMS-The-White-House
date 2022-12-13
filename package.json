@@ -1,0 +1,26 @@
+{
+  "name": "craft-white-house",
+  "version": "0.0.1",
+  "description": "Assignment for Content Management Systems: The White House",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "keywords": [
+    "Website",
+    "Graft CMS",
+    "CMS"
+  ],
+  "author": "Stualyttle Kirry",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^12.6.0"
+  }
+}
