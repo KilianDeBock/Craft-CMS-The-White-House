@@ -1,0 +1,9 @@
+baseUrl: $SPANISH_SITE_URL
+enabled: '1'
+handle: laCasaBlanca
+hasUrls: true
+language: es-US
+name: ' La casa Blanca'
+primary: false
+siteGroup: c473eca2-49ef-44f4-9454-b7cb1cffa330 # Craft White House
+sortOrder: 2
