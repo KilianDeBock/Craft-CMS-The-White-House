@@ -1,0 +1,55 @@
+fieldLayouts:
+  8df290a7-f0a6-470e-8e73-176b58b4b76a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f29febad-f80d-4ab7-ae4d-b230eb65530c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 572a077d-ce9f-4cc5-b289-d725be3da2de
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3cc97f0a-cfde-426a-9056-d7c4bd088e03
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 0d091394-f7ed-4782-b499-a2e3e8e97b75 # Modular Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
