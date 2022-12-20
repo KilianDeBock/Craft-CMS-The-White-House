@@ -1,0 +1,24 @@
+fieldLayouts:
+  b0ecfd69-674d-470c-9652-6f956261d5ac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1aba7118-bc5f-4ef5-85b0-32f92a9faf1b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Branding
+        uid: 637f09b5-6280-4c63-9528-8f61ced1b388
+        userCondition: null
+handle: branding
+name: Branding
+sortOrder: 1

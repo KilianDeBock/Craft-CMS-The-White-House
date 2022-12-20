@@ -1,0 +1,34 @@
+columnSuffix: sbqnkvgy
+contentColumnType: string
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: buttonStyleSelector
+instructions: null
+name: 'Button Style Selector'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Transparent
+        -
+          - value
+          - button--transparent
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Primary
+        -
+          - value
+          - button--primary
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

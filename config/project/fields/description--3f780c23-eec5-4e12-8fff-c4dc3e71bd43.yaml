@@ -1,0 +1,19 @@
+columnSuffix: ucsqzypj
+contentColumnType: text
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

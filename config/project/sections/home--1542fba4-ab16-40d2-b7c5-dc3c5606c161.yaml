@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3eafd726-10bf-42af-9b5b-87290c5ed572: # The White House
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home
+    uriFormat: __home__
+  5007c2b1-84b7-43a5-a14c-05c95607d86b: #  La casa Blanca
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home
+    uriFormat: __home__
+type: single
