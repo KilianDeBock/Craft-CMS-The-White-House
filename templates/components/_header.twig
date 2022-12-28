@@ -1,6 +1,12 @@
-<header>
-    {% include "components/_logo" %}
-
-    Header
-    {% include "components/_nav" %}
+<header class="header">
+    <span class="header__logo">
+        <span class="header__logo-text">The White House</span>
+        {% include "components/_logo" %}
+    </span>
+    <span class="header__side-logo">
+        {% include "components/_logoSide" %}
+    </span>
+    <span>
+        {% include "components/_nav" %}
+    </span>
 </header>

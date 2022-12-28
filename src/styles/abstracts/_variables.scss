@@ -1,8 +1,13 @@
-$primary: hsl(240, 100%, 66%);
+$primary: hsl(220, 80%, 19%);
 $dark: hsl(0, 0%, 25%);
 $gray: hsl(0, 0%, 93%);
 $medium: hsl(0, 0%, 75%);
 $light: hsl(0, 0%, 100%);
+
+$selection: hsl(0, 72%, 35%);
+$selection-background: hsl(0, 0%, 100%);
+
+$primary-background: $light;
 
 $font-sm: .5rem;
 $font-base: 1rem;

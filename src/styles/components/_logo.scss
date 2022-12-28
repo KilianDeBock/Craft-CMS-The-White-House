@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+
+.logo {
+  display: inline-block;
+}
+
+.logo--main {
+}
+
+.logo--main {
+  width: 7.5rem;
+  fill: v.$primary;
+}
+
+.logo--side {
+  width: 5.5rem;
+}
