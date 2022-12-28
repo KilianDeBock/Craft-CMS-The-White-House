@@ -2,6 +2,7 @@
 Lyttle Defaults ~ Recommended to use with Lyttle Reset:
 https://github.com/Stualyttle/LyttleTools/blob/main/CSS/reset.css
 */
+@use '../abstracts/variables' as v;
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,13 @@ https://github.com/Stualyttle/LyttleTools/blob/main/CSS/reset.css
 
 body {
   //line-height: 1;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Bruta Pro', Helvetica, Arial, sans-serif;
+  color: v.$primary
+}
+
+::selection {
+  color: v.$selection-background;
+  background-color: v.$selection;
 }
 
 h1 {
