@@ -1,4 +1,4 @@
-dateModified: 1671532907
+dateModified: 1672240291
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -15,6 +15,7 @@ meta:
   __names__:
     0b5e7765-ae0c-47a3-b30e-9154452b506d: 'Text and image' # Text and image
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
+    2c4c9376-7a0e-4de6-857d-2f27434b77c7: 'Logo Secondary' # Logo Secondary
     2cd2c12c-93ed-48d5-8ddd-ad0b0ed64cd6: Image # Image
     3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc: Image # Image
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
@@ -29,6 +30,7 @@ meta:
     86e9eb87-918f-4718-93eb-85679c5ad03b: 'Banner and text' # Banner and text
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
+    982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo Main' # Logo Main
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
@@ -37,6 +39,7 @@ meta:
     cdda21e4-5046-411c-b78d-3ef131e76c35: Image # Image
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
+    edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo Side' # Logo Side
     f21f9d4b-b43d-40ba-bb80-e77bd963c22b: 'Entry Selector' # Entry Selector
     f5299e2c-41f3-4664-b39c-e119a7e9387c: Text # Text
 plugins:

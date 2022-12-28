@@ -6,13 +6,37 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc # Image
+            fieldUid: 982ea9f6-3838-4aa0-8b72-b48ef98a4c8d # Logo Main
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1aba7118-bc5f-4ef5-85b0-32f92a9faf1b
+            uid: 5af898bb-f611-4629-a3e4-038fedc24fb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c4c9376-7a0e-4de6-857d-2f27434b77c7 # Logo Secondary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e490b4a-b8a8-4b3a-978d-0c6779ad16c4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: edacf0d0-f17c-425b-971c-a992f1bda244 # Logo Side
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ec453b4-b0fc-4660-b039-933de5208144
             userCondition: null
             warning: null
             width: 100
