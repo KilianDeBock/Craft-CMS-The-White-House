@@ -4,9 +4,10 @@
   "description": "Assignment for Content Management Systems: The White House",
   "main": "index.js",
   "scripts": {
-    "dev": "mix",
-    "watch": "mix watch",
-    "production": "mix --production"
+    "dev": "npm -s run tools && mix",
+    "watch": "npm -s run tools && mix watch",
+    "production": "mix --production",
+    "tools": "node ./.tools/app/lyttle_tools/main.js"
   },
   "keywords": [
     "Website",

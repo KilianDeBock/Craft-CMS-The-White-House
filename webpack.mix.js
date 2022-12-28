@@ -6,5 +6,9 @@ mix
   .setPublicPath("./web/dist")
   .version();
 
-// mix.browserSync({ proxy: "https://craft-white-house.ddev.site", https: true });
-mix.browserSync("https://craft-white-house.ddev.site");
+mix.browserSync({
+  proxy: "https://craft-white-house.ddev.site",
+  https: true,
+  ui: false,
+  open: true,
+});
