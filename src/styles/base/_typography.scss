@@ -14,7 +14,9 @@ https://github.com/Stualyttle/LyttleTools/blob/main/CSS/reset.css
 body {
   //line-height: 1;
   font-family: 'Bruta Pro', Helvetica, Arial, sans-serif;
-  color: v.$primary
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: v.$primary;
 }
 
 ::selection {
