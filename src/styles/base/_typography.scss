@@ -17,6 +17,11 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   color: v.$primary;
+  background-color: black; // todo remove
+}
+
+strong {
+  font-weight: 600;
 }
 
 ::selection {

@@ -1,0 +1,25 @@
+{% for page in pages %}
+    <li>
+        <a href="{{ page.url }}" class="{{ classes }}">
+            {{ page.title }}
+        </a>
+        {% if renderChildren is defined and renderChildren and page.hasDescendants %}
+            <input id="category__{{ page.slug }}" type="checkbox" class="main-nav__sub-menu__opener">
+            <label for="category__{{ page.slug }}" class="main-nav__sub-menu__icon">
+                {{ svg("@webroot/icons/arrow.svg") }}
+                Open Category
+            </label>
+            <ul class="main-nav__sub-menu">
+                {% for child in page.children().level(2) %}
+                    {% if child.overwriteLevelDepth != "1" %}
+                        <li>
+                            <a href="{{ child.url }}" class="main-nav__menu-item--side">
+                                {{ child.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+{% endfor %}

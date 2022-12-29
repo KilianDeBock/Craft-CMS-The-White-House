@@ -1,60 +1,46 @@
 <nav class="main-nav">
+    {% set sites = craft.app.sites.getAllSites() %}
     <input id="main-nav__opener" type="checkbox">
-    <label for="main-nav__opener" class="main-nav__opener">Menu</label>
+    <label for="main-nav__opener" class="main-nav__opener">
+        <span class="main-nav__opener--before"></span>
+        <span class="main-nav__opener--menu">{{ "Menu" | t }}</span>
+        <span class="main-nav__opener--close">{{ "Close" | t }}</span>
+        <span class="main-nav__opener--after"></span>
+    </label>
     <section class="main-nav__menu">
         {% include "components/_logoSide" %}
-        <ul>
-            {% set pagesMain = craft.entries().section('pages').level(1).includedInMainMenu(1) %}
-            {% set pagesExtra = craft.entries().section('pages').level("not 1").includedInMainMenu(1).overwriteLevelDepth(1) %}
-            {% set pages = pagesMain | merge(pagesExtra) %}
-            {% for page in pages %}
-                <li>
-                    <a href="{{ page.url }}" class="main-nav__menu-item">
-                        {{ page.title }}
-                    </a>
-                    {% if page.hasDescendants %}
-                        <input id="category__{{ page.slug }}" type="checkbox" class="main-nav__sub-menu__opener">
-                        <label for="category__{{ page.slug }}" class="main-nav__sub-menu__icon">
-                            {{ svg("@webroot/icons/arrow.svg") }}
-                            Open Category
-                        </label>
-                        <ul class="main-nav__sub-menu">
-                            {% for child in page.children().level(2) %}
-                                {% if child.overwriteLevelDepth != "1" %}
-                                    <li>
-                                        <a href="{{ child.url }}" class="main-nav__menu-item--side">
-                                            {{ child.title }}
-                                        </a>
-                                    </li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
+        <section class="main-nav__main-section">
+            <ul class="main-nav__menu-items">
+                {# Main Nav / Primary Pages #}
+                {% set pagesMain = craft.entries().section('pages').level(1).includedInMainMenu(1).secondaryPage(0) %}
+                {% set pagesExtra = craft.entries().section('pages').level("not 1").includedInMainMenu(1).overwriteLevelDepth(1).secondaryPage(0) %}
+                {% set pages = pagesMain | merge(pagesExtra) %}
+                {% include 'components/_navItems' with {
+                    'pages': pages,
+                    'classes': 'main-nav__menu-item',
+                    'renderChildren': true
+                } %}
+
+                {# Languages #}
+                {% include 'components/_navSites' with {
+                    classes: "main-nav__menu-item"
+                } %}
+            </ul>
+
+            {% include 'components/_about' %}
+        </section>
     </section>
     <ul class="main-nav__tiny-menu">
-        {% set highlightedPagesMain = craft.entries().section('pages').level(1).includedInTinyMenu(1) %}
-        {% set highlightedPagesExtra = craft.entries().section('pages').level("not 1").includedInTinyMenu(1).overwriteLevelDepth(1) %}
+        {# Pages #}
+        {% set highlightedPagesMain = craft.entries().section('pages').level(1).includedInTinyMenu(1).secondaryPage(0) %}
+        {% set highlightedPagesExtra = craft.entries().section('pages').level("not 1").includedInTinyMenu(1).overwriteLevelDepth(1).secondaryPage(0) %}
         {% set highlightedPages = highlightedPagesMain | merge(highlightedPagesExtra) %}
-        {% for page in highlightedPages %}
-            <li>
-                <a href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </li>
-        {% endfor %}
-        {% set sites = craft.app.sites.getAllSites() %}
-        {% for site in sites %}
-            {% if currentSite.id is not same as(site.id) %}
-                {% set url = craft.entries.siteId(site.id).id(entry.id).one().url %}
-                <li>
-                    <a href="{{ url }}">
-                        {{ site.language | split('-') | first | upper }}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
+        {% include 'components/_navItems' with {
+            'pages': highlightedPages,
+            'classes': 'main-nav__menu-item main-nav__tiny-menu-item'
+        } %}
+
+        {# Languages #}
+        {% include 'components/_navSites' %}
     </ul>
 </nav>

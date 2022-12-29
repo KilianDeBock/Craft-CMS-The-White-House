@@ -1,0 +1,28 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixin' as m;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .about__address {
+    font-size: v.$font-pre-medium;
+    font-weight: normal;
+  }
+
+  .about__socials {
+    display: flex;
+    height: v.$spacing-base;
+    gap: v.$spacing-base;
+  }
+
+  .about__socials svg {
+    height: 100%;
+    fill: v.$primary;
+  }
+
+  .about__social-name {
+    display: none;
+  }
+}

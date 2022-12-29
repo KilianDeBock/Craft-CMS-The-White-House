@@ -1,0 +1,14 @@
+columnSuffix: xthikuki
+contentColumnType: boolean
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: secondaryPage
+instructions: null
+name: 'Secondary Page'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Primary Page'
+  onLabel: 'Secondary Page'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

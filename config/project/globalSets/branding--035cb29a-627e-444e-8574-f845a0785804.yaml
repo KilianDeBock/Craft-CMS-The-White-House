@@ -40,6 +40,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: b1254c70-8640-4f80-bbd9-4c126fcf2b2d # Background Main Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 74bc0d44-3f8a-49d7-931b-6f5b7b5d9210
+            userCondition: null
+            warning: null
+            width: 100
         name: Branding
         uid: 637f09b5-6280-4c63-9528-8f61ced1b388
         userCondition: null

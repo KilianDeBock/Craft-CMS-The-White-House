@@ -1,0 +1,32 @@
+defaultPlacement: end
+enableVersioning: true
+handle: socials
+name: Socials
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3eafd726-10bf-42af-9b5b-87290c5ed572: # The White House
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  5007c2b1-84b7-43a5-a14c-05c95607d86b: #  La casa Blanca
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: fb259cc1-bd15-4bbf-bcc4-120cbaf56b03
+type: structure

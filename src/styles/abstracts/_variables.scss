@@ -3,6 +3,7 @@ $dark: hsl(0, 0%, 25%);
 $gray: hsl(0, 0%, 93%);
 $medium: hsl(0, 0%, 75%);
 $light: hsl(0, 0%, 100%);
+$accent: hsl(220, 32%, 91%);
 
 $selection: hsl(0, 72%, 35%);
 $selection-background: hsl(0, 0%, 100%);
@@ -13,12 +14,18 @@ $primary-font: #0064bc;
 
 $font-sm: .8rem;
 $font-base: 1rem;
+$font-pre-medium: 1.2rem;
 $font-medium: 1.5rem;
 $font-large: 2rem;
 
 $spacing-sm: .5rem;
 $spacing-base: 1rem;
 $spacing-medium: 1.5rem;
+$spacing-large: 2rem;
+$spacing-xl: 2.5rem;
+$spacing-xxl: 3rem;
+$spacing-xxxl: 3.5rem;
+$spacing-xxxxl: 4rem;
 
 $radius-base: .25rem;
 

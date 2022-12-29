@@ -1,0 +1,28 @@
+<section class="about">
+    <ul class="about__secondary-pages">
+        {% set pagesMain = craft.entries().section('pages').level(1).secondaryPage(1) %}
+        {% set pagesExtra = craft.entries().section('pages').level("not 1").secondaryPage(1) %}
+        {% set pagesSecondary = pagesMain | merge(pagesExtra) %}
+        {% include 'components/_navItems' with {
+            'pages': pagesSecondary,
+            'classes': 'main-nav__menu-item--secondary'
+        } %}
+    </ul>
+    <ul class="about__socials">
+        {% for social in craft.entries().section('socials') %}
+            <li class="about__social">
+                <a href="{{ social.externalLink }}">
+                    {{ svg(social.image.one()) }}
+                    <span class="about__social-name">
+                    {{ social.title }}
+                </span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <p class="about__address">
+        <strong>{{ "addressName" | t }}</strong>
+        <br>{{ "addressStreet" | t }}
+        <br>{{ "addressCity" | t }}
+    </p>
+</section>

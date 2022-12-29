@@ -1,0 +1,10 @@
+{% for site in sites %}
+    {% if currentSite.id is not same as(site.id) %}
+        {% set url = craft.entries.siteId(site.id).id(entry.id).one().url %}
+        <li>
+            <a href="{{ url }}" class="{% if classes is defined %}{{ classes }}{% endif %}">
+                {{ site.language | split('-') | first | upper | t }}
+            </a>
+        </li>
+    {% endif %}
+{% endfor %}

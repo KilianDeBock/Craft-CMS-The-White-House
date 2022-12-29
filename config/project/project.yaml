@@ -1,4 +1,4 @@
-dateModified: 1672300439
+dateModified: 1672327482
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -24,10 +24,12 @@ meta:
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
     5bd20039-ca31-4d3f-8681-5925a78ca8a8: Column # Column
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
+    9cc86ca9-d609-4a19-af34-9619573d5e5c: Default # Default
     19e20f27-3724-4b47-b3e9-b0ad2383a0b2: Home # Home
     035cb29a-627e-444e-8574-f845a0785804: Branding # Branding
     36d3245f-b1be-4e8c-9968-66bbe04dcbee: Images # Images
     36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: 'Button Url' # Button Url
+    44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema'
     85c57acd-88f7-4df4-a4b0-3a601aa2471e: Grid # Grid
     86e9eb87-918f-4718-93eb-85679c5ad03b: 'Banner and text' # Banner and text
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
@@ -36,7 +38,10 @@ meta:
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
+    b1254c70-8640-4f80-bbd9-4c126fcf2b2d: 'Background Main Menu' # Background Main Menu
+    c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
+    c65369b0-f49d-4bc9-8947-a1dd757dcc55: Socials # Socials
     cd5a821b-2d99-4eff-adc1-37b4248bbad0: Text # Text
     cdda21e4-5046-411c-b78d-3ef131e76c35: Image # Image
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
