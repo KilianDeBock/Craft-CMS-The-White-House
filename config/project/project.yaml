@@ -1,4 +1,4 @@
-dateModified: 1672240291
+dateModified: 1672300439
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -15,6 +15,8 @@ meta:
   __names__:
     0b5e7765-ae0c-47a3-b30e-9154452b506d: 'Text and image' # Text and image
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
+    0fc7dbef-a9ec-4ba6-8e74-5b6b9320d679: 'Included In Main Menu' # Included In Main Menu
+    0ff20944-75b2-45ac-91e1-307fefae9144: 'Included In Footer Menu' # Included In Footer Menu
     2c4c9376-7a0e-4de6-857d-2f27434b77c7: 'Logo Secondary' # Logo Secondary
     2cd2c12c-93ed-48d5-8ddd-ad0b0ed64cd6: Image # Image
     3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc: Image # Image
@@ -38,6 +40,8 @@ meta:
     cd5a821b-2d99-4eff-adc1-37b4248bbad0: Text # Text
     cdda21e4-5046-411c-b78d-3ef131e76c35: Image # Image
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
+    dacdefa8-10bf-4e3a-8187-b0a8c18404d2: 'Included In Tiny Menu' # Included In Tiny Menu
+    dd60b55d-a074-42e5-9421-5d350544bd5b: 'Overwrite Level Depth' # Overwrite Level Depth
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
     edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo Side' # Logo Side
     f21f9d4b-b43d-40ba-bb80-e77bd963c22b: 'Entry Selector' # Entry Selector

@@ -45,6 +45,60 @@ fieldLayouts:
         name: Content
         uid: 600904f9-244e-4842-a38a-4279db7b0930
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dacdefa8-10bf-4e3a-8187-b0a8c18404d2 # Included In Tiny Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d67884f4-8ef5-4b6b-9dfc-7949fd61347b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0fc7dbef-a9ec-4ba6-8e74-5b6b9320d679 # Included In Main Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5556a1cb-24bf-486c-b212-9eaf6ab03dd7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0ff20944-75b2-45ac-91e1-307fefae9144 # Included In Footer Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7afee6d5-5a6b-4bb1-82ec-25483839ceaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dd60b55d-a074-42e5-9421-5d350544bd5b # Overwrite Level Depth
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81189412-f14b-4724-a685-d6b20997a010
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Navigation Settings'
+        uid: 0ee1149a-00cc-481d-a189-b5375a5ab89c
+        userCondition: null
 handle: grid
 hasTitleField: true
 name: Grid

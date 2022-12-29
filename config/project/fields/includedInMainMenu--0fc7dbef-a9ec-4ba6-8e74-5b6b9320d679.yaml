@@ -1,0 +1,14 @@
+columnSuffix: blfuuwuk
+contentColumnType: boolean
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: includedInMainMenu
+instructions: null
+name: 'Included In Main Menu'
+searchable: false
+settings:
+  default: true
+  offLabel: 'Not included'
+  onLabel: Included
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

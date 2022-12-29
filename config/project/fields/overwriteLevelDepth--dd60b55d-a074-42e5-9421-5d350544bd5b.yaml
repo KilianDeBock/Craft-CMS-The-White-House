@@ -1,0 +1,14 @@
+columnSuffix: rqpbilgg
+contentColumnType: boolean
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: overwriteLevelDepth
+instructions: 'Allow this entry to be any child. And not only show level 1 parents.'
+name: 'Overwrite Level Depth'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Don''t Allow'
+  onLabel: Allow
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -1,0 +1,14 @@
+columnSuffix: vcycgmwe
+contentColumnType: boolean
+fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
+handle: includedInTinyMenu
+instructions: null
+name: 'Included In Tiny Menu'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Not Included'
+  onLabel: Included
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

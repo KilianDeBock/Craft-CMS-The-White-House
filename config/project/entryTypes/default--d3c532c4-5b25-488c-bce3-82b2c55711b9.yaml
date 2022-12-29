@@ -45,6 +45,60 @@ fieldLayouts:
         name: Content
         uid: 3cc97f0a-cfde-426a-9056-d7c4bd088e03
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dacdefa8-10bf-4e3a-8187-b0a8c18404d2 # Included In Tiny Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 264f0f58-578b-4434-8a42-3ffe8ae25af8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0fc7dbef-a9ec-4ba6-8e74-5b6b9320d679 # Included In Main Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11587d69-7904-4a7c-b513-8dec563f3e52
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0ff20944-75b2-45ac-91e1-307fefae9144 # Included In Footer Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ab2a949-95ee-4c2c-a80f-b2c844707263
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dd60b55d-a074-42e5-9421-5d350544bd5b # Overwrite Level Depth
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee29aa51-de15-4d44-b4f5-65f40f4cc270
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Navigation Settings'
+        uid: 716fbb41-0ce4-4a21-8f6f-3df5962e7625
+        userCondition: null
 handle: default
 hasTitleField: true
 name: Default
