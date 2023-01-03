@@ -10,5 +10,6 @@ mix.browserSync({
   proxy: "https://craft-white-house.ddev.site",
   https: true,
   ui: false,
-  open: true,
+  open: false,
+  notify: false,
 });
