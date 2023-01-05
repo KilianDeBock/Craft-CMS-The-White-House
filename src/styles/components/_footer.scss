@@ -1,0 +1,131 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: v.$spacing-medium;
+  gap: v.$spacing-large;
+
+  .footer__connect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-large;
+
+    border: v.$spacing-xsm solid v.$primary;
+    border-radius: v.$spacing-base;
+    gap: v.$spacing-6xl;
+
+    .footer__form-logo {
+      display: none;
+      height: 7rem;
+      fill: v.$primary;
+
+      @include m.mq(md) {
+        display: inline-block;
+      }
+    }
+
+    .footer__connect-form {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      gap: v.$spacing-large;
+
+      .footer__connect-title {
+        font-family: "Mercury", Helvetica, Arial, sans-serif;
+        font-size: v.$font-pre-medium;
+      }
+
+      label {
+        font-size: v.$font-sm;
+        display: flex;
+        flex-direction: column;
+
+        input {
+          flex-grow: 1;
+          margin-top: v.$spacing-sm;
+          padding: v.$spacing-base;
+          border-radius: v.$spacing-sm;
+          background-color: v.$accent;
+        }
+      }
+
+      button {
+        padding: v.$spacing-base;
+        color: v.$primary-background;
+        border-radius: v.$spacing-large;
+        background-color: v.$primary;
+      }
+
+      .footer__connect-mobile {
+        font-size: v.$font-sm;
+        @include m.mq(md) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: v.$spacing-large;
+
+    .footer__pages {
+      display: flex;
+      flex-direction: column;
+      gap: v.$spacing-base;
+
+
+      @include m.mq(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer__page {
+        display: inline-block;
+        padding-bottom: 3px;
+        transition: .2s ease;
+        border-color: rgba(10, 36, 88, .25);
+        border-bottom: 1px solid;
+
+        &:hover {
+          color: v.$selection;
+          border-color: v.$selection;
+        }
+      }
+    }
+
+    .footer__about {
+      display: flex;
+      flex-direction: column;
+      gap: v.$spacing-xl;
+
+      .logo {
+        transition: fill .2s ease;
+        fill: v.$gold;
+
+        &:hover {
+          fill: v.$selection;
+        }
+      }
+    }
+  }
+
+  .footer__background {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 40rem;
+    height: 40rem;
+    background: url("/assets/icons/footerBackground.svg");
+    background-repeat: no-repeat;
+    background-position: 5rem 5rem;
+    background-size: 100%;
+  }
+}

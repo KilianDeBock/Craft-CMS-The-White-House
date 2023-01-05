@@ -1,0 +1,11 @@
+{% if image is defined %}
+    {% if classes is not defined %}
+        {% set classes = "" %}
+    {% endif %}
+    {# Check if image is svg, use svg if, else img. #}
+    {% if image and image.extension == 'svg' %}
+        {{ svg(image) | attr({ class: classes }) }}
+    {% else %}
+        <img class="logo" src="{{ image.url }}" alt="{{ image.title }}"/>
+    {% endif %}
+{% endif %}

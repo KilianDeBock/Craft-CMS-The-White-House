@@ -1,3 +1,50 @@
-<footer>
-    Footer
+<footer class="footer">
+    <section class="footer__connect container">
+        {% include 'components/_image' with {
+            image: branding.logoText.one(),
+            classes: "footer__form-logo"
+        } %}
+        <form action="" class="footer__connect-form">
+            <p class="footer__connect-title">{{ "Stay Connected" | t }}</p>
+            <label>
+                {{ "Email Address" | t }}*
+                <input type="email" placeholder="{{ "example@example.com" | t }}">
+            </label>
+
+            <label>
+                {{ "Zip Code" | t }}
+                <input type="text" placeholder="{{ "Zip Code" | t }}">
+            </label>
+            <button type="submit">{{ "Sign Up" | t }}</button>
+            <span>
+                <a
+                        class="footer__connect-mobile link"
+                        href="/"
+                >
+                    {{ "Opt in to send and receive text messages from President Biden. " | t }}
+                </a>
+            </span>
+        </form>
+    </section>
+    <section class="footer__container container">
+        <ul class="footer__pages">
+            {% set pagesMain = craft.entries().section('pages').level(1).includedInMainMenu(1).secondaryPage(0) %}
+            {% set pagesExtra = craft.entries().section('pages').level("not 1").includedInMainMenu(1).overwriteLevelDepth(1).secondaryPage(0) %}
+            {% set pages = pagesMain | merge(pagesExtra) %}
+            {% for page in pages %}
+                <li><a class="footer__page" href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+
+
+            {# Languages #}
+            {% include 'components/_navSites' with {
+                classes: "footer__page"
+            } %}
+        </ul>
+        <section class="footer__about">
+            {% include 'components/_about' %}
+            {% include "components/branding/_logoMiniText" %}
+        </section>
+    </section>
+    <div class="footer__background"></div>
 </footer>

@@ -17,11 +17,34 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   color: v.$primary;
-  background-color: black; // todo remove
 }
 
 strong {
   font-weight: 600;
+}
+
+p > a,
+a.link {
+  line-height: 180%;
+  display: inline;
+  padding-bottom: 1px;
+  transition: .2s ease;
+  border-color: v.$accent;
+  border-bottom: 1px solid;
+
+  &:hover {
+    color: v.$selection;
+    border-color: v.$selection;
+  }
+}
+
+p > a.hidden,
+a.link.hidden {
+  border-color: transparent;
+
+  &:hover {
+    border-color: v.$selection;
+  }
 }
 
 ::selection {
