@@ -5,16 +5,15 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: v.$spacing-medium;
+  padding: v.$spacing-3xl v.$spacing-medium v.$spacing-6xl;
   gap: v.$spacing-large;
 
   .footer__connect {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: v.$spacing-large;
-
-    border: v.$spacing-xsm solid v.$primary;
+    padding: v.$spacing-xxl;
+    border: .15rem solid v.$primary;
     border-radius: v.$spacing-base;
     gap: v.$spacing-6xl;
 
@@ -28,7 +27,7 @@
       }
     }
 
-    .footer__connect-form {
+    .footer__connect-form-frame {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -39,41 +38,82 @@
         font-size: v.$font-pre-medium;
       }
 
-      label {
-        font-size: v.$font-sm;
+      .footer__connect-form {
         display: flex;
+        align-items: stretch;
         flex-direction: column;
+        flex-grow: 1;
+        gap: v.$spacing-large;
 
-        input {
-          flex-grow: 1;
-          margin-top: v.$spacing-sm;
-          padding: v.$spacing-base;
-          border-radius: v.$spacing-sm;
-          background-color: v.$accent;
+        @include m.mq(lg) {
+          align-items: flex-end;
+          flex-direction: row;
+          gap: v.$spacing-sm;
+
+          label:first-of-type {
+            width: 45%;
+          }
+
+          label {
+            width: 25%;
+          }
+
+          button {
+            width: 30%;
+          }
         }
-      }
 
-      button {
-        padding: v.$spacing-base;
-        color: v.$primary-background;
-        border-radius: v.$spacing-large;
-        background-color: v.$primary;
-      }
+        label {
+          font-size: v.$font-sm;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
 
-      .footer__connect-mobile {
-        font-size: v.$font-sm;
-        @include m.mq(md) {
-          display: none;
+          input {
+            flex-grow: 1;
+            margin-top: v.$spacing-sm;
+            padding: v.$spacing-base;
+            border-radius: v.$spacing-sm;
+            background-color: v.$accent;
+          }
+        }
+
+        button {
+          font-size: v.$font-sm;
+          flex-grow: 1;
+          height: 3rem;
+          padding: v.$spacing-base;
+          color: v.$primary-background;
+          border-radius: v.$spacing-large;
+          background-color: v.$primary;
+        }
+
+        .footer__connect-mobile {
+          font-size: v.$font-sm;
+          @include m.mq(md) {
+            display: none;
+          }
         }
       }
     }
   }
 
+
   .footer__container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: v.$spacing-large;
+    padding-top: v.$spacing-6xl;
+    padding-bottom: v.$spacing-5xl;
+    border-top: 1px solid v.$accent;
     gap: v.$spacing-large;
+
+
+    @include m.mq(md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .footer__pages {
       display: flex;
@@ -83,34 +123,52 @@
 
       @include m.mq(md) {
         display: grid;
+        align-content: center;
         grid-template-columns: repeat(2, 1fr);
       }
 
       .footer__page {
+        font-size: v.$font-sm;
+        font-weight: 600;
         display: inline-block;
         padding-bottom: 3px;
         transition: .2s ease;
-        border-color: rgba(10, 36, 88, .25);
         border-bottom: 1px solid;
+        border-bottom-color: v.$accent;
 
         &:hover {
           color: v.$selection;
-          border-color: v.$selection;
+          border-bottom-color: v.$selection;
         }
       }
     }
 
-    .footer__about {
+    .footer__last {
       display: flex;
       flex-direction: column;
-      gap: v.$spacing-xl;
+      gap: v.$spacing-6xl;
 
-      .logo {
-        transition: fill .2s ease;
-        fill: v.$gold;
+      @include m.mq(lg) {
+        flex-direction: row;
+      }
 
-        &:hover {
-          fill: v.$selection;
+      .footer__sec-nav {
+        font-size: v.$font-sm;
+        font-weight: 400;
+      }
+
+      .footer__about {
+        display: flex;
+        flex-direction: column;
+        gap: v.$spacing-xl;
+
+        .logo {
+          transition: fill .2s ease;
+          fill: v.$gold;
+
+          &:hover {
+            fill: v.$selection;
+          }
         }
       }
     }
@@ -121,11 +179,16 @@
     z-index: -1;
     right: 0;
     bottom: 0;
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 30rem;
     background: url("/assets/icons/footerBackground.svg");
     background-repeat: no-repeat;
     background-position: 5rem 5rem;
     background-size: 100%;
+
+    @include m.mq(md) {
+      width: 40rem;
+      height: 40rem;
+    }
   }
 }

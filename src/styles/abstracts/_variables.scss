@@ -1,4 +1,6 @@
+// Colors
 $primary: hsl(220, 80%, 19%);
+$primary-accent: hsl(208, 100%, 37%);
 $dark: hsl(0, 0%, 25%);
 $gray: hsl(0, 0%, 93%);
 $medium: hsl(0, 0%, 75%);
@@ -6,19 +8,24 @@ $light: hsl(0, 0%, 100%);
 $accent: hsl(220, 32%, 91%);
 $gold: hsl(22, 26%, 42%);
 
+// Selection colors
 $selection: hsl(0, 72%, 35%);
 $selection-background: hsl(0, 0%, 100%);
 
-$primary-background: $light;
-
+// Font Colors
 $primary-font: hsl(208, 100%, 37%);
 
+// Font Sizes
 $font-sm: .8rem;
 $font-base: 1rem;
 $font-pre-medium: 1.2rem;
 $font-medium: 1.5rem;
 $font-large: 2rem;
 
+// Background colors
+$primary-background: $light;
+
+// Spacings
 $spacing-xsm: .3rem;
 $spacing-sm: .5rem;
 $spacing-base: 1rem;
@@ -31,21 +38,14 @@ $spacing-4xl: 4rem;
 $spacing-5xl: 4.5rem;
 $spacing-6xl: 5rem;
 
-$radius-base: .25rem;
-
+// Breakpoints
 $def: 20rem;
-$xs: 23.5rem; // @media (max-width: $xs) {}
-$sm: 36rem; // (min-width: 36rem)
-$md: 48rem; // (min-width: 48rem)
-$lg: 62rem; // (min-width: 62rem)
-$gl: 64rem; //! gap `lg - xl` (min-width: 64rem)
-$xl: 75rem; // (min-width: 75rem)
-
-// to container
-$col-sm: 33.75rem; // (max-width: 540px)
-$col-md: 50rem; // (max-width: 720px)
-$col-lg: 60rem; // (max-width: 960px)
-$col-xl: 80rem; // (max-width: 1140px)
+$xs: 23.5rem;
+$sm: 36rem;
+$md: 48rem;
+$lg: 62rem;
+$gl: 64rem;
+$xl: 75rem;
 
 $breakpoints: (
         sm: $sm,
@@ -53,3 +53,11 @@ $breakpoints: (
         lg: $lg,
         xl: $xl
 );
+
+// To containers
+$col-sm: 33.75rem;
+$col-md: 50rem;
+$col-lg: 60rem;
+$col-xl: 80rem;
+$col-xxl: 90rem;
+$col-xxxl: 105rem;

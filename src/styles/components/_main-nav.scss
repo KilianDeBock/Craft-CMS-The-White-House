@@ -36,7 +36,7 @@
   }
 
   #main-nav__opener:checked {
-    @media (max-width: v.$xl) {
+    @media (max-width: v.$md) {
       + .main-nav__opener {
         right: v.$spacing-base + .9rem; // Compensation for the scrollbar between 12px to 17px (https://www.google.com/search?q=with+of+a+scrollbar+default -> https://adminhacks.com/browser-scrollbar-widths.html)
         color: v.$light;
@@ -182,12 +182,7 @@
     display: none;
   }
 
-  @include m.screen(v.$xl) {
-    .main-nav__tiny-menu {
-      display: flex;
-      gap: v.$spacing-base
-    }
-
+  @include m.screen(v.$md) {
     // Reset all styling
     .main-nav__opener {
       position: relative;
@@ -245,6 +240,13 @@
       .main-nav__opener--before {
         display: inline-block;
       }
+    }
+  }
+
+  @include m.screen(v.$col-xxxl) {
+    .main-nav__tiny-menu {
+      display: flex;
+      gap: v.$spacing-base
     }
 
     .main-nav__menu-items {

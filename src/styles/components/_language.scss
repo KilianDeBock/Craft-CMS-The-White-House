@@ -1,0 +1,5 @@
+@use '../abstracts/variables' as v;
+
+a.language {
+  color: v.$primary-accent;
+}

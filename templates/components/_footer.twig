@@ -25,10 +25,13 @@
                     {{ translations.connectForm.mobileNotification }}
                 </a>
             </span>
+            </article>
         </form>
     </section>
     <section class="footer__container container">
         <ul class="footer__pages">
+            {% set homePage = craft.entries().section("home").one() %}
+            <li><a class="footer__page" href="{{ homePage.url }}">{{ homePage.title }}</a></li>
             {% set pagesMain = craft.entries().section('pages').level(1).includedInMainMenu(1).secondaryPage(0) %}
             {% set pagesExtra = craft.entries().section('pages').level("not 1").includedInMainMenu(1).overwriteLevelDepth(1).secondaryPage(0) %}
             {% set pages = pagesMain | merge(pagesExtra) %}
@@ -39,12 +42,17 @@
 
             {# Languages #}
             {% include 'components/_navSites' with {
-                classes: "footer__page"
+                classes: "footer__page footer__language"
             } %}
         </ul>
-        <section class="footer__about">
-            {% include 'components/_about' %}
-            {% include "components/branding/_logoMiniText" %}
+        <section class="footer__last">
+            <article class="footer__sec-nav">
+                {% include 'components/_navSecItems' %}
+            </article>
+            <article class="footer__about">
+                {% include 'components/_about' %}
+                {% include "components/branding/_logoMiniText" %}
+            </article>
         </section>
     </section>
     <div class="footer__background"></div>
