@@ -1,5 +1,5 @@
 @use '../abstracts/variables' as v;
-@use '../abstracts/mixin' as m;
+@use '../abstracts/mixins' as m;
 
 .main-nav {
   display: flex;
@@ -81,6 +81,11 @@
     }
   }
 
+  .main-nav__main-section {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-large;
+  }
 
   #main-nav__opener,
   .main-nav__sub-menu__opener {
@@ -254,7 +259,7 @@
     .main-nav__main-section {
       display: flex;
       align-items: center;
-      margin-top: v.$spacing-xxxl;
+      margin-top: v.$spacing-3xl;
 
       > :last-child {
         padding-left: v.$spacing-medium;
