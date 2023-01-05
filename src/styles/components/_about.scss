@@ -6,14 +6,6 @@
   flex-direction: column;
   gap: 3rem;
 
-  .about__secondary-pages {
-    font-size: v.$font-sm;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    gap: v.$spacing-sm;
-  }
-
   .about__address {
     font-family: "Mercury", Helvetica, Arial, sans-serif;
     font-size: v.$font-base;

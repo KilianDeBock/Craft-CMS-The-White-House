@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as v;
+
+.secondary-pages {
+  font-size: v.$font-sm;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: v.$spacing-sm;
+}
