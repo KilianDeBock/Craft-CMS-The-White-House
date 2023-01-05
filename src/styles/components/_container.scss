@@ -2,13 +2,31 @@
 @use '../abstracts/mixins' as m;
 
 .container {
+  width: 100%;
   max-width: v.$xl;
   margin: 0 auto;
-  padding: v.$spacing-medium;
+
+  @include m.mq(sm) {
+    max-width: v.$col-sm;
+  }
+
+  @include m.mq(md) {
+    max-width: v.$col-md;
+  }
+
+  @include m.mq(lg) {
+    max-width: v.$col-lg;
+
+
+  }
+
+  @include m.mq(xl) {
+    max-width: v.$col-xl;
+  }
 }
 
 .container--center {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
