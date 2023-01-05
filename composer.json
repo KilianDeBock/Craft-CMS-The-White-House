@@ -1,6 +1,8 @@
 {
   "require": {
     "craftcms/cms": "^4.2.7",
+    "craftcms/contact-form": "3.0.0",
+    "hybridinteractive/craft-contact-form-extensions": "4.2.2",
     "misterbk/mix": "1.6.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
