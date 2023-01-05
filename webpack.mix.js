@@ -11,5 +11,5 @@ mix.browserSync({
   https: true,
   open: false,
   notify: false,
-  files: ["templates/**/*", "src/**/*"],
+  files: ["./templates/**/*", "./src/**/*", "./web/**/*"],
 });
