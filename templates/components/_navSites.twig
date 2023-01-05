@@ -2,8 +2,9 @@
     {% if currentSite.id is not same as(site.id) %}
         {% set url = craft.entries.siteId(site.id).id(entry.id).one().url %}
         <li>
-            <a href="{{ url }}" class="{% if classes is defined %}{{ classes }}{% endif %}">
-                {{ site.language | split('-') | first | upper | t }}
+            <a href="{{ url }}" class="language {% if classes is defined %}{{ classes }}{% endif %}">
+                {% set langHandle = site.language | split('-') | first | lower %}
+                {{ translations.languages[langHandle] }}
             </a>
         </li>
     {% endif %}

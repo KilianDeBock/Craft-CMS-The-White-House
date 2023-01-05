@@ -7,7 +7,7 @@
             <input id="category__{{ page.slug }}" type="checkbox" class="main-nav__sub-menu__opener">
             <label for="category__{{ page.slug }}" class="main-nav__sub-menu__icon">
                 {{ svg("@webroot/assets/icons/arrow.svg") }}
-                Open Category
+                {{ translations.navigation.openCategory }}
             </label>
             <ul class="main-nav__sub-menu">
                 {% for child in page.children().level(2) %}

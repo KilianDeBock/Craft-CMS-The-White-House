@@ -4,24 +4,25 @@
             image: branding.logoText.one(),
             classes: "footer__form-logo"
         } %}
-        <form action="" class="footer__connect-form">
-            <p class="footer__connect-title">{{ "Stay Connected" | t }}</p>
-            <label>
-                {{ "Email Address" | t }}*
-                <input type="email" placeholder="{{ "example@example.com" | t }}">
-            </label>
+        <form action="" class="footer__connect-form-frame">
+            <p class="footer__connect-title">{{ translations.connectForm.formTitle }}</p>
+            <article class="footer__connect-form">
+                <label>
+                    {{ translations.connectForm.email }}*
+                    <input type="email" placeholder="{{ translations.connectForm.emailExample }}">
+                </label>
 
-            <label>
-                {{ "Zip Code" | t }}
-                <input type="text" placeholder="{{ "Zip Code" | t }}">
-            </label>
-            <button type="submit">{{ "Sign Up" | t }}</button>
-            <span>
+                <label>
+                    {{ translations.connectForm.zipCode }}
+                    <input type="text" placeholder="{{ translations.connectForm.zipCodeExample }}">
+                </label>
+                <button type="submit">{{ translations.connectForm.submit }}</button>
+                <span>
                 <a
                         class="footer__connect-mobile link"
                         href="/"
                 >
-                    {{ "Opt in to send and receive text messages from President Biden. " | t }}
+                    {{ translations.connectForm.mobileNotification }}
                 </a>
             </span>
         </form>
