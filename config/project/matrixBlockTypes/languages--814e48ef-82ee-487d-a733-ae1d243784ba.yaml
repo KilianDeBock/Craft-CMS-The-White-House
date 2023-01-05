@@ -1,0 +1,78 @@
+field: bfd17c69-ccb1-4401-b92e-8ef00390fb65 # Translations Languages
+fieldLayouts:
+  c6e27daf-fb40-40d5-986e-edfbb5e99fe9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3642e428-90e0-4097-a6c5-fae8b26e4765 # English
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e00d61d2-8bb6-46ec-9ded-4e8c0921ad4b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca34e5c9-7022-4cb1-b264-963748529589 # Spanish
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e7c9d2b-c633-4463-bc2f-b5be7b6ce2b4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ee8063b6-fb6d-407a-98dd-433290d6e311
+        userCondition: null
+fields:
+  3642e428-90e0-4097-a6c5-fae8b26e4765: # English
+    columnSuffix: rpkjrxnz
+    contentColumnType: text
+    fieldGroup: null
+    handle: en
+    instructions: null
+    name: English
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ca34e5c9-7022-4cb1-b264-963748529589: # Spanish
+    columnSuffix: wqphokhl
+    contentColumnType: text
+    fieldGroup: null
+    handle: es
+    instructions: null
+    name: Spanish
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: languages
+name: Languages
+sortOrder: 1

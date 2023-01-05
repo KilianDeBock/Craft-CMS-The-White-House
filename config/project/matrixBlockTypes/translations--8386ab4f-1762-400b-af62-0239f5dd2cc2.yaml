@@ -1,0 +1,206 @@
+field: 8010d3fc-e347-4a09-9385-9dba8ef5b951 # Translations Navigation
+fieldLayouts:
+  33508530-864f-4abc-8a61-e7169e2d7312:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fb490549-947d-485d-873a-41b528f48fcc # Menu (open)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6aa160ff-dcfd-4bf1-81d3-bb210476d2a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 185c48f4-b753-45b8-8cd9-d10602eb510b # Menu (Close)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38ff662b-90dc-4ade-b148-99a4247cf592
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f01013d-fa0e-4309-b260-3aae26cb9f50 # Open Category
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71185eda-2487-491e-ab8a-458fb6f09b8b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a3a137ec-21ef-4b01-a9ad-2ef8384eb451 # Address Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fc42f42-53fb-4830-b5a0-483a5d8ce423
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6a7901a1-0b64-448c-888f-99eb69ded378 # Address Street
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0910928e-1096-4428-bfd1-baeee23aa37f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dc8cf8ed-171d-4143-9509-4368e2db57b9 # Address City
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa20dcbb-25d2-4e04-952a-7299b0f1ca13
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 652a50b9-60cc-4e78-ae23-f1012b4af8e9
+        userCondition: null
+fields:
+  6a7901a1-0b64-448c-888f-99eb69ded378: # Address Street
+    columnSuffix: tckhcsyn
+    contentColumnType: text
+    fieldGroup: null
+    handle: addressStreet
+    instructions: null
+    name: 'Address Street'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  6f01013d-fa0e-4309-b260-3aae26cb9f50: # Open Category
+    columnSuffix: qcinkhts
+    contentColumnType: text
+    fieldGroup: null
+    handle: openCategory
+    instructions: null
+    name: 'Open Category'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  185c48f4-b753-45b8-8cd9-d10602eb510b: # Menu (Close)
+    columnSuffix: hgowjjlq
+    contentColumnType: text
+    fieldGroup: null
+    handle: menuClose
+    instructions: null
+    name: 'Menu (Close)'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  a3a137ec-21ef-4b01-a9ad-2ef8384eb451: # Address Name
+    columnSuffix: puvrwrma
+    contentColumnType: text
+    fieldGroup: null
+    handle: addressName
+    instructions: null
+    name: 'Address Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  dc8cf8ed-171d-4143-9509-4368e2db57b9: # Address City
+    columnSuffix: skugieyy
+    contentColumnType: text
+    fieldGroup: null
+    handle: addressCity
+    instructions: null
+    name: 'Address City'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  fb490549-947d-485d-873a-41b528f48fcc: # Menu (open)
+    columnSuffix: bgxmsqop
+    contentColumnType: text
+    fieldGroup: null
+    handle: menuOpen
+    instructions: null
+    name: 'Menu (open)'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+handle: translations
+name: Translations
+sortOrder: 1

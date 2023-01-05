@@ -1,4 +1,4 @@
-dateModified: 1672771233
+dateModified: 1672924893
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -25,35 +25,79 @@ meta:
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
     5bd20039-ca31-4d3f-8681-5925a78ca8a8: Column # Column
+    6a7901a1-0b64-448c-888f-99eb69ded378: 'Address Street' # Address Street
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
+    6f01013d-fa0e-4309-b260-3aae26cb9f50: 'Open Category' # Open Category
+    8c7e7e8c-3551-46bc-b9c4-72b2207fa5c7: 'Email Example' # Email Example
+    9c43c6f3-3730-4df2-85c6-7df3e3e50bb4: 'Zip Code' # Zip Code
     9cc86ca9-d609-4a19-af34-9619573d5e5c: Default # Default
     19e20f27-3724-4b47-b3e9-b0ad2383a0b2: Home # Home
+    22a8b269-3cf6-4503-aced-1a2d713cb5d5: 'Zip Code Example' # Zip Code Example
     035cb29a-627e-444e-8574-f845a0785804: Branding # Branding
     36d3245f-b1be-4e8c-9968-66bbe04dcbee: Images # Images
     36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: 'Button Url' # Button Url
+    43b4a765-8916-4046-babd-ac1a5fb13959: 'Static Translations' # Static Translations
     44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema' # Public Schema
+    49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: Email # Email
+    70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     85c57acd-88f7-4df4-a4b0-3a601aa2471e: Grid # Grid
     86e9eb87-918f-4718-93eb-85679c5ad03b: 'Banner and text' # Banner and text
+    185c48f4-b753-45b8-8cd9-d10602eb510b: 'Menu (Close)' # Menu (Close)
+    234eadcc-f114-47fe-a58a-7dedd1ff560b: 'Form Title' # Form Title
+    280d61a5-e523-4275-99b1-081440834032: 'Email Example' # Email Example
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
+    814e48ef-82ee-487d-a733-ae1d243784ba: Languages # Languages
     982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
+    3642e428-90e0-4097-a6c5-fae8b26e4765: English # English
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
+    8010d3fc-e347-4a09-9385-9dba8ef5b951: 'Translations Navigation' # Translations Navigation
+    8386ab4f-1762-400b-af62-0239f5dd2cc2: Translations # Translations
+    59851fed-6f3d-4369-b887-796f1a6ec5df: 'Zip Code Example' # Zip Code Example
+    a3a137ec-21ef-4b01-a9ad-2ef8384eb451: 'Address Name' # Address Name
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
+    aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: 'Zip Code' # Zip Code
+    b9f18fe1-9976-4d62-abf6-8e133495e7d6: Title # Title
+    b8558ecb-a164-4c5c-9b9d-1d0ee1b884dc: 'Sign Up' # Sign Up
     b1148404-3272-4249-ad35-fe02e4097a71: 'Logo: Text' # Logo: Text
+    bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
+    bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
     c65369b0-f49d-4bc9-8947-a1dd757dcc55: Socials # Socials
+    c93718ce-e876-40bb-9d7e-d071cfe0ff91: 'Translations Connect Form' # Translations Connect Form
+    ca34e5c9-7022-4cb1-b264-963748529589: Spanish # Spanish
     cd5a821b-2d99-4eff-adc1-37b4248bbad0: Text # Text
     cdda21e4-5046-411c-b78d-3ef131e76c35: Image # Image
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
+    d5da3258-5935-460e-8030-ca08e809e2c6: 'Form Mobile Notification' # Form Mobile Notification
+    d5e83a19-472e-44ba-b93a-bd56e2cc0fa3: Submit # Submit
+    daca072a-9826-4e7c-88ca-ddc719ef8b7f: 'Mobile Notification' # Mobile Notification
     dacdefa8-10bf-4e3a-8187-b0a8c18404d2: 'Included In Tiny Menu' # Included In Tiny Menu
+    dc8cf8ed-171d-4143-9509-4368e2db57b9: 'Address City' # Address City
     dd60b55d-a074-42e5-9421-5d350544bd5b: 'Overwrite Level Depth' # Overwrite Level Depth
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
     edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo: Primary Lined' # Logo: Primary Lined
     f21f9d4b-b43d-40ba-bb80-e77bd963c22b: 'Entry Selector' # Entry Selector
     f5299e2c-41f3-4664-b39c-e119a7e9387c: Text # Text
+    fb490549-947d-485d-873a-41b528f48fcc: 'Menu (open)' # Menu (open)
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from The White House'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: debbockkilian@gmail.com
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   mix:
     edition: standard
     enabled: true

@@ -1,0 +1,238 @@
+field: c93718ce-e876-40bb-9d7e-d071cfe0ff91 # Translations Connect Form
+fieldLayouts:
+  97357f91-60d9-456a-bf3a-8eaea01282b4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b9f18fe1-9976-4d62-abf6-8e133495e7d6 # Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 926cc6e6-a665-42e8-a148-ff9646a3116e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 49ec9161-f744-4ea6-9bed-e9fe1c3ff75b # Email
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a28fffdb-e8c6-4a7b-8982-114bc2aa0a4d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c7e7e8c-3551-46bc-b9c4-72b2207fa5c7 # Email Example
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 639c9dc9-a687-4039-8c29-7515295badda
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce # Zip Code
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8a6cd4e5-e3d5-4399-b7b2-4a4d2c643dfc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 22a8b269-3cf6-4503-aced-1a2d713cb5d5 # Zip Code Example
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17526062-af44-412a-b9f6-9dde0e05b38c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d5e83a19-472e-44ba-b93a-bd56e2cc0fa3 # Submit
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1fa44ce8-3e4e-4704-808b-e3a519fab1cd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: daca072a-9826-4e7c-88ca-ddc719ef8b7f # Mobile Notification
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a153ad33-393e-461e-9b01-b5f1444c095b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 535dba3f-e943-415c-a934-1937c9d58599
+        userCondition: null
+fields:
+  8c7e7e8c-3551-46bc-b9c4-72b2207fa5c7: # Email Example
+    columnSuffix: wtntuxpa
+    contentColumnType: text
+    fieldGroup: null
+    handle: emailExample
+    instructions: null
+    name: 'Email Example'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  22a8b269-3cf6-4503-aced-1a2d713cb5d5: # Zip Code Example
+    columnSuffix: khlbwypf
+    contentColumnType: text
+    fieldGroup: null
+    handle: zipCodeExample
+    instructions: null
+    name: 'Zip Code Example'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: # Email
+    columnSuffix: qigjoelm
+    contentColumnType: text
+    fieldGroup: null
+    handle: email
+    instructions: null
+    name: Email
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: # Zip Code
+    columnSuffix: onlxeoey
+    contentColumnType: text
+    fieldGroup: null
+    handle: zipCode
+    instructions: null
+    name: 'Zip Code'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  b9f18fe1-9976-4d62-abf6-8e133495e7d6: # Title
+    columnSuffix: gbomhtmz
+    contentColumnType: text
+    fieldGroup: null
+    handle: formTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  d5e83a19-472e-44ba-b93a-bd56e2cc0fa3: # Submit
+    columnSuffix: vhdfsqdz
+    contentColumnType: text
+    fieldGroup: null
+    handle: submit
+    instructions: null
+    name: Submit
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  daca072a-9826-4e7c-88ca-ddc719ef8b7f: # Mobile Notification
+    columnSuffix: pnyivnjm
+    contentColumnType: text
+    fieldGroup: null
+    handle: mobileNotification
+    instructions: null
+    name: 'Mobile Notification'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+handle: translations
+name: Translations
+sortOrder: 1

@@ -1,0 +1,60 @@
+fieldLayouts:
+  5d89b964-615e-4123-8259-39e1b073a492:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bfd17c69-ccb1-4401-b92e-8ef00390fb65 # Translations Languages
+            instructions: 'In original language!'
+            label: Languages
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f03f5dea-c978-45b2-9c0c-562c3462cfb1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Languages
+        uid: 72a4fd7b-6ce0-4fd6-bcee-6e844f59cfb0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8010d3fc-e347-4a09-9385-9dba8ef5b951 # Translations Navigation
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a244dae-7ee9-40bb-a8a7-3a165953039c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Navigation
+        uid: e24495d1-4e7c-48d2-bb89-7bf75088d8f0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c93718ce-e876-40bb-9d7e-d071cfe0ff91 # Translations Connect Form
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4faf3f34-e5fb-47f1-bd86-14f79293e857
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Connect Form'
+        uid: 777b5a9c-95ae-4862-a001-2371960b815f
+        userCondition: null
+handle: staticTranslations
+name: 'Static Translations'
+sortOrder: 2

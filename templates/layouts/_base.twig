@@ -8,6 +8,11 @@
 </head>
 <body>
 {% set sites = craft.app.sites.getAllSites() %}
+{% set translations = {
+    navigation: staticTranslations.translationsNavigation.one(),
+    languages: staticTranslations.translationsLanguages.one(),
+    connectForm: staticTranslations.translationsConnectForm.one(),
+} %}
 {% include "components/_header" %}
 
 <main class="main">
