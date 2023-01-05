@@ -8,8 +8,8 @@
         <span class="main-nav__opener--after"></span>
     </label>
     <section class="main-nav__menu">
-        {% include "components/_logoSide" %}
-        <section class="main-nav__main-section">
+        {% include "components/branding/_logoPrimaryLined" %}
+        <section class="main-nav__main-section container">
             <ul class="main-nav__menu-items">
                 {# Main Nav / Primary Pages #}
                 {% set pagesMain = craft.entries().section('pages').level(1).includedInMainMenu(1).secondaryPage(0) %}

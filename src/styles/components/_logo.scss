@@ -2,16 +2,16 @@
 
 .logo {
   display: inline-block;
+  fill: white;
 }
 
-.logo--main {
-}
 
-.logo--main {
+.logo--mini-text,
+.logo--lined {
   width: 7.5rem;
   fill: v.$primary;
 }
 
-.logo--side {
+.logo--background {
   width: 5.5rem;
 }

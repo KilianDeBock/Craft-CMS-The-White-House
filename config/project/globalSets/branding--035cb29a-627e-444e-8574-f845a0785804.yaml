@@ -6,7 +6,49 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 982ea9f6-3838-4aa0-8b72-b48ef98a4c8d # Logo Main
+            fieldUid: 0d6b7f03-afd5-40de-8d15-84bd795db091 # Logo: Primary Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6d3918be-e37e-413b-b955-7a82a7806262
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: edacf0d0-f17c-425b-971c-a992f1bda244 # Logo: Primary Lined
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ec453b4-b0fc-4660-b039-933de5208144
+            userCondition: null
+            warning: null
+            width: 100
+        name: Primary
+        uid: 1f57ec70-dea5-4d13-bc53-a52cc00adce8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b1148404-3272-4249-ad35-fe02e4097a71 # Logo: Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8edb58a0-bde8-463b-89ba-860be4bf2ebb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 982ea9f6-3838-4aa0-8b72-b48ef98a4c8d # Logo: Min-Text
             instructions: null
             label: null
             required: false
@@ -16,9 +58,15 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: 'Text Variant'
+        uid: 604ac580-e174-4850-bb12-3463d66a7196
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             elementCondition: null
-            fieldUid: 2c4c9376-7a0e-4de6-857d-2f27434b77c7 # Logo Secondary
+            fieldUid: 2c4c9376-7a0e-4de6-857d-2f27434b77c7 # Background: House
             instructions: null
             label: null
             required: false
@@ -30,30 +78,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: edacf0d0-f17c-425b-971c-a992f1bda244 # Logo Side
+            fieldUid: 3cd8ddfe-3329-4536-9215-a271721f301c # Background: Seal
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0ec453b4-b0fc-4660-b039-933de5208144
+            uid: bb03e4dd-a67c-49bb-925e-e1f025d5e2a7
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: b1254c70-8640-4f80-bbd9-4c126fcf2b2d # Background Main Menu
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 74bc0d44-3f8a-49d7-931b-6f5b7b5d9210
-            userCondition: null
-            warning: null
-            width: 100
-        name: Branding
-        uid: 637f09b5-6280-4c63-9528-8f61ced1b388
+        name: Backgrounds
+        uid: 96c68726-f6d5-499e-b85b-5f7046af1d2e
         userCondition: null
 handle: branding
 name: Branding

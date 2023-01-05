@@ -1,6 +1,6 @@
-<a href="{{ currentSite.baseUrl }}" class="logo logo--side">
+<a href="{{ currentSite.baseUrl }}" class="logo logo--text">
     {# Get image #}
-    {% set image = branding.logoSide.one() %}
+    {% set image = branding.logoText.one() %}
 
     {# Check if image is svg, use svg if, else img. #}
     {% if image and image.extension == 'svg' %}

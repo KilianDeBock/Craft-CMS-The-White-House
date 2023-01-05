@@ -1,4 +1,4 @@
-dateModified: 1672327482
+dateModified: 1672771233
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -15,11 +15,13 @@ meta:
   __names__:
     0b5e7765-ae0c-47a3-b30e-9154452b506d: 'Text and image' # Text and image
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
+    0d6b7f03-afd5-40de-8d15-84bd795db091: 'Logo: Primary Background' # Logo: Primary Background
     0fc7dbef-a9ec-4ba6-8e74-5b6b9320d679: 'Included In Main Menu' # Included In Main Menu
     0ff20944-75b2-45ac-91e1-307fefae9144: 'Included In Footer Menu' # Included In Footer Menu
-    2c4c9376-7a0e-4de6-857d-2f27434b77c7: 'Logo Secondary' # Logo Secondary
+    2c4c9376-7a0e-4de6-857d-2f27434b77c7: 'Background: House' # Background: House
     2cd2c12c-93ed-48d5-8ddd-ad0b0ed64cd6: Image # Image
     3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc: Image # Image
+    3cd8ddfe-3329-4536-9215-a271721f301c: 'Background: Seal' # Background: Seal
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
     5bd20039-ca31-4d3f-8681-5925a78ca8a8: Column # Column
@@ -29,16 +31,16 @@ meta:
     035cb29a-627e-444e-8574-f845a0785804: Branding # Branding
     36d3245f-b1be-4e8c-9968-66bbe04dcbee: Images # Images
     36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: 'Button Url' # Button Url
-    44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema'
+    44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema' # Public Schema
     85c57acd-88f7-4df4-a4b0-3a601aa2471e: Grid # Grid
     86e9eb87-918f-4718-93eb-85679c5ad03b: 'Banner and text' # Banner and text
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
-    982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo Main' # Logo Main
+    982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
-    b1254c70-8640-4f80-bbd9-4c126fcf2b2d: 'Background Main Menu' # Background Main Menu
+    b1148404-3272-4249-ad35-fe02e4097a71: 'Logo: Text' # Logo: Text
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
     c65369b0-f49d-4bc9-8947-a1dd757dcc55: Socials # Socials
@@ -48,7 +50,7 @@ meta:
     dacdefa8-10bf-4e3a-8187-b0a8c18404d2: 'Included In Tiny Menu' # Included In Tiny Menu
     dd60b55d-a074-42e5-9421-5d350544bd5b: 'Overwrite Level Depth' # Overwrite Level Depth
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
-    edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo Side' # Logo Side
+    edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo: Primary Lined' # Logo: Primary Lined
     f21f9d4b-b43d-40ba-bb80-e77bd963c22b: 'Entry Selector' # Entry Selector
     f5299e2c-41f3-4664-b39c-e119a7e9387c: Text # Text
 plugins:

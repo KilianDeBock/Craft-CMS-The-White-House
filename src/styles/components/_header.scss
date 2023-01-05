@@ -11,7 +11,19 @@
   background-color: v.$primary-background;
 }
 
-.header__side-logo {
+.header__text {
+  font-family: 'Mercury', Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  text-transform: uppercase;
+}
+
+.logo--mini-text {
+  display: inline-block;
+}
+
+
+.header__logo {
   position: absolute;
   bottom: -30%;
   left: 50%;
@@ -19,20 +31,12 @@
   transform: translateX(-50%);
 }
 
-
-.header__logo-text {
-  font-family: 'Mercury', Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
-  display: none;
-  text-transform: uppercase;
-}
-
 @include m.screen(v.$md) {
-  .header__logo-text {
-    display: inline-block;
+  .header .logo--mini-text {
+    display: none;
   }
 
-  .header .logo--main {
-    display: none;
+  .header__text {
+    display: inline-block;
   }
 }

@@ -1,10 +1,10 @@
 <header class="header">
-    <span class="header__logo">
-        <span class="header__logo-text">The White House</span>
-        {% include "components/_logo" %}
+    <span>
+        <a class="header__text" href="{{ currentSite.baseUrl }}">The White House</a>
+        {% include "components/branding/_logoMiniText" %}
     </span>
-    <span class="header__side-logo">
-        {% include "components/_logoSide" %}
+    <span class="header__logo">
+        {% include "components/branding/_logoPrimaryBackground" %}
     </span>
     <span>
         {% include "components/_nav" %}

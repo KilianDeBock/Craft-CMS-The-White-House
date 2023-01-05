@@ -1,0 +1,11 @@
+<a href="{{ currentSite.baseUrl }}" class="logo logo--background">
+    {# Get image #}
+    {% set image = branding.logoPrimaryBackground.one() %}
+
+    {# Check if image is svg, use svg if, else img. #}
+    {% if image and image.extension == 'svg' %}
+        {{ svg(image) }}
+    {% else %}
+        <img class="logo" src="{{ image.url }}" alt="{{ image.title }}"/>
+    {% endif %}
+</a>

@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
-handle: logoSecondary
+handle: backgroundHouse
 instructions: null
-name: 'Logo Secondary'
+name: 'Background: House'
 searchable: false
 settings:
   allowSelfRelations: false

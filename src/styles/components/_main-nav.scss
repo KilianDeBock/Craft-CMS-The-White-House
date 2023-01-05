@@ -245,7 +245,7 @@
     .main-nav__menu-items {
       display: grid;
       align-content: center;
-      align-items: center;
+      align-items: start;
       width: 100%;
       grid-template-columns: repeat(3, 1fr);
       gap: v.$spacing-medium;
@@ -253,7 +253,7 @@
 
     .main-nav__main-section {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       margin-top: v.$spacing-xxxl;
 
       > :last-child {

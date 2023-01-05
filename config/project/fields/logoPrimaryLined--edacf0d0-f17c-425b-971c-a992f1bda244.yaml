@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
-handle: backgroundMainMenu
+handle: logoPrimaryLined
 instructions: null
-name: 'Background Main Menu'
+name: 'Logo: Primary Lined'
 searchable: false
 settings:
   allowSelfRelations: false
