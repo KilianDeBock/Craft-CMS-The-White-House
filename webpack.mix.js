@@ -9,7 +9,7 @@ mix
 mix.browserSync({
   proxy: "https://craft-white-house.ddev.site",
   https: true,
-  ui: false,
   open: false,
   notify: false,
+  files: ["templates/**/*", "src/**/*"],
 });
