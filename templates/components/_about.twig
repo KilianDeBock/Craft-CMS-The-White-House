@@ -5,7 +5,7 @@
         {% set pagesSecondary = pagesMain | merge(pagesExtra) %}
         {% include 'components/_navItems' with {
             'pages': pagesSecondary,
-            'classes': 'main-nav__menu-item--secondary'
+            'classes': 'main-nav__menu-item--secondary link hidden'
         } %}
     </ul>
     <ul class="about__socials">
