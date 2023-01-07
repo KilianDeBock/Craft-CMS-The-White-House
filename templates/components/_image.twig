@@ -6,6 +6,6 @@
     {% if image and image.extension == 'svg' %}
         {{ svg(image) | attr({ class: classes }) }}
     {% else %}
-        <img class="logo" src="{{ image.url }}" alt="{{ image.title }}"/>
+        <img class="{{ classes }}" src="{{ image.url }}" alt="{{ image.title }}"/>
     {% endif %}
 {% endif %}
