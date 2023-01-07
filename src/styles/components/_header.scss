@@ -38,7 +38,7 @@
   }
 
   @include m.screen(v.$md) {
-    .header .logo--mini-text {
+    .logo--mini-text {
       display: none;
     }
 
