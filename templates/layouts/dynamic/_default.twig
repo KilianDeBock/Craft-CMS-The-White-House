@@ -1,12 +1,5 @@
 {% extends "layouts/_main" %}
 
 {% block container %}
-    {% for contentItem in entry.dynamicContent %}
-        {% if contentItem.type == "banner" %}
-            {% include 'components/banner' %}
-        {% elseif contentItem.type == "bannerAndText" %}
-            {% include 'components/bannerAndText' %}
-        {% endif %}
-    {% endfor %}
-    {{ parent() }}
+    {% include 'layouts/_dynamicContent' %}
 {% endblock %}
