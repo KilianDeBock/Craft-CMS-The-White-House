@@ -7,6 +7,7 @@ $medium: hsl(0, 0%, 75%);
 $light: hsl(0, 0%, 100%);
 $accent: hsl(220, 32%, 91%);
 $gold: hsl(22, 26%, 42%);
+$gold-background: hsl(47, 100%, 96%);
 
 // Selection colors
 $selection: hsl(0, 72%, 35%);
@@ -37,6 +38,8 @@ $spacing-3xl: 3.5rem;
 $spacing-4xl: 4rem;
 $spacing-5xl: 4.5rem;
 $spacing-6xl: 5rem;
+
+$padding-base: 2rem 1.5rem;
 
 // Breakpoints
 $def: 20rem;
