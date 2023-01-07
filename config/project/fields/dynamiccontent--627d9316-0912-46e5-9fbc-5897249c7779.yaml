@@ -1,7 +1,7 @@
 columnSuffix: qhoinnua
 contentColumnType: string
 fieldGroup: e1e48183-239e-4251-8559-626b99e9336c # Common
-handle: dynamiccontent
+handle: dynamicContent
 instructions: null
 name: Content
 searchable: false

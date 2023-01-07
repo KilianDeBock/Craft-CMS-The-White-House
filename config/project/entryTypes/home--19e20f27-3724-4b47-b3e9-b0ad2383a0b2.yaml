@@ -32,13 +32,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3f780c23-eec5-4e12-8fff-c4dc3e71bd43 # Description
+            fieldUid: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 996929bb-fd93-4368-9a27-fab508e88cef
+            uid: f5af17ff-dbd9-431a-a1ed-1cb76cd8bbd8
             userCondition: null
             warning: null
             width: 100
@@ -52,4 +52,4 @@ section: 1542fba4-ab16-40d2-b7c5-dc3c5606c161 # Home
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
-titleTranslationMethod: site
+titleTranslationMethod: language

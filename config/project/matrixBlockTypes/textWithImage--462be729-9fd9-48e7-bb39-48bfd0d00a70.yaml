@@ -1,0 +1,277 @@
+field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+fieldLayouts:
+  0e3c1fe5-0920-49a0-bb53-eb8d34695ca0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 65724e68-da04-4ed5-8886-93db1c160245 # About Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0759f05f-e1aa-4bbf-a285-d98ec61dba1d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f946788c-ff97-49da-a4c6-9add990f5da9 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 780c8ea9-a096-481d-ac88-1163f69bb456
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f25a1825-140a-41c2-bbd1-12a6e9d80aa4 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4596cf6e-48f0-430c-9d22-ca4399106921
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ef2f048f-b5af-470b-b0da-708caa33f4a3 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc1bf17c-1e67-4581-b630-e6064579fc4a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1aa7f9b9-d297-488b-ab52-b484f5d1b2f5 # Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5ced357-839f-463a-9714-e2af29b7caa9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8 # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d42e388b-ed39-409a-ada9-b1f3704e3931
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b12a696b-b0f6-4259-8d02-1e2a99f17dc2 # Link Titles
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09acec07-29e7-4f8a-845c-eb49ec70d086
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fee8f9d3-ac82-4f8a-ae10-2eb673f9039e
+        userCondition: null
+fields:
+  1aa7f9b9-d297-488b-ab52-b484f5d1b2f5: # Type
+    columnSuffix: uyvkvfdp
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: orientation
+    instructions: null
+    name: Type
+    searchable: false
+    settings:
+      default: false
+      offLabel: 'Image Left / Text Right'
+      onLabel: 'Text Left / Image Right'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  65724e68-da04-4ed5-8886-93db1c160245: # About Title
+    columnSuffix: vdqrvcwc
+    contentColumnType: text
+    fieldGroup: null
+    handle: aboutTitle
+    instructions: null
+    name: 'About Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8: # Links
+    columnSuffix: ebvmhwbe
+    contentColumnType: string
+    fieldGroup: null
+    handle: links
+    instructions: null
+    name: Links
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:0d091394-f7ed-4782-b499-a2e3e8e97b75' # Modular Pages
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  b12a696b-b0f6-4259-8d02-1e2a99f17dc2: # Link Titles
+    columnSuffix: xxovzupo
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkTitles
+    instructions: 'Place every Title on a new line, same order as links above'
+    name: 'Link Titles'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ef2f048f-b5af-470b-b0da-708caa33f4a3: # Image
+    columnSuffix: fhwfljcu
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  f25a1825-140a-41c2-bbd1-12a6e9d80aa4: # Text
+    columnSuffix: efvrcofy
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f946788c-ff97-49da-a4c6-9add990f5da9: # Title
+    columnSuffix: afolcutm
+    contentColumnType: text
+    fieldGroup: null
+    handle: textTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: textWithImage
+name: 'Text With Image'
+sortOrder: 1

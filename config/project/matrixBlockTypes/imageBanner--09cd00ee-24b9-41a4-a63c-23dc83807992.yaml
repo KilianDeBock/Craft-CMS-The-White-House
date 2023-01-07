@@ -1,69 +1,81 @@
 field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
 fieldLayouts:
-  cbb24895-7233-4b99-89c8-0c02453df570:
+  6bc9b365-7901-4416-9446-9de236c5f896:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: cdda21e4-5046-411c-b78d-3ef131e76c35 # Image
+            fieldUid: 32de1007-c8b5-4643-974a-64d929c888d0 # Image
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c3c71015-b68a-41b6-bbc1-a14797eb1ad6
+            uid: 841a18bf-b088-4fe1-920b-61ee2a93c922
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f5299e2c-41f3-4664-b39c-e119a7e9387c # Text
+            fieldUid: 77577163-1b22-43a5-9e0e-5bfccb5b9fdb # Tags
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 40ed2678-e2cf-491d-8252-83ec23b0fdc2
+            uid: e5267498-bd29-40ae-a6c2-4867b954a9af
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 398eea1c-c330-45d8-b628-c184e8eb94a3 # Button Text
+            fieldUid: 75d8e328-49f4-4be8-b526-4258c4281f53 # Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5fa01ab0-79be-4a50-bfa5-ae7420628cc2
+            uid: 90b9c6b8-0766-48da-8cb4-798713f7616d
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0 # Button Url
+            fieldUid: 9e054beb-e66b-47da-9f1c-e3ec067dae3a # Button Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cd7230d1-60ec-4a52-a5fb-ad50ad1a4f20
+            uid: 4686358e-1c21-447e-a476-7b8037471dda
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3ae2f80e-8485-4a14-b15c-7ea3170bbfa1 # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ea977f4-9832-4747-8144-e4fc2d9b19e9
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c5a4a811-5d68-4aae-ae65-843c348bee74
+        uid: d0c04ebf-b47e-4571-a633-1264da169bbe
         userCondition: null
 fields:
-  36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: # Button Url
-    columnSuffix: ucbqgxoz
+  3ae2f80e-8485-4a14-b15c-7ea3170bbfa1: # Button Link
+    columnSuffix: loakmhfo
     contentColumnType: string(255)
     fieldGroup: null
-    handle: buttonUrl
+    handle: buttonLink
     instructions: null
-    name: 'Button Url'
+    name: 'Button Link'
     searchable: false
     settings:
       maxLength: 255
@@ -72,8 +84,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  398eea1c-c330-45d8-b628-c184e8eb94a3: # Button Text
-    columnSuffix: rptjqeuz
+  9e054beb-e66b-47da-9f1c-e3ec067dae3a: # Button Text
+    columnSuffix: mymvdxcm
     contentColumnType: text
     fieldGroup: null
     handle: buttonText
@@ -92,26 +104,27 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  cdda21e4-5046-411c-b78d-3ef131e76c35: # Image
-    columnSuffix: null
+  32de1007-c8b5-4643-974a-64d929c888d0: # Image
+    columnSuffix: kyvesusy
     contentColumnType: string
     fieldGroup: null
     handle: image
-    instructions: 'Upload a rather large image with a minimum width of 1080px.'
+    instructions: null
     name: Image
     searchable: false
     settings:
       allowSelfRelations: false
       allowSubfolders: false
       allowUploads: true
-      allowedKinds: null
+      allowedKinds:
+        - image
       defaultUploadLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maxRelations: 1
       minRelations: 1
       previewMode: full
-      restrictFiles: false
+      restrictFiles: true
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
       restrictedLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
@@ -127,26 +140,6 @@ fields:
           -
             - class
             - craft\elements\conditions\assets\AssetCondition
-          -
-            - conditionRules
-            -
-              -
-                __assoc__:
-                  -
-                    - class
-                    - craft\elements\conditions\assets\WidthConditionRule
-                  -
-                    - uid
-                    - 88f16b12-4678-4739-a15b-a81c20337b9c
-                  -
-                    - operator
-                    - '>='
-                  -
-                    - value
-                    - '1080'
-                  -
-                    - maxValue
-                    - ''
       selectionLabel: null
       showSiteMenu: false
       showUnpermittedFiles: false
@@ -156,12 +149,12 @@ fields:
         - 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
       targetSiteId: null
       validateRelatedElements: false
-      viewMode: large
+      viewMode: list
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  f5299e2c-41f3-4664-b39c-e119a7e9387c: # Text
-    columnSuffix: yzqnjani
+  75d8e328-49f4-4be8-b526-4258c4281f53: # Text
+    columnSuffix: tcujshqr
     contentColumnType: text
     fieldGroup: null
     handle: text
@@ -180,6 +173,26 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: bannerAndText
-name: 'Banner and text'
-sortOrder: 1
+  77577163-1b22-43a5-9e0e-5bfccb5b9fdb: # Tags
+    columnSuffix: xiebevbv
+    contentColumnType: text
+    fieldGroup: null
+    handle: tags
+    instructions: null
+    name: Tags
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: imageBanner
+name: 'Image Banner'
+sortOrder: 2

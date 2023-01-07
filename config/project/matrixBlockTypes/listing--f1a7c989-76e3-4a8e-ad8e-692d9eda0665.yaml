@@ -1,0 +1,88 @@
+field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+fieldLayouts:
+  bf9b1ad3-df84-4630-8836-8dc81c4708b9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 33f72036-934b-4745-8799-ae2cb41d1fbc # Pages
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4487e9c2-384b-4018-83d7-7aec462faf06
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c1ffcbe1-918c-4b1e-b963-544bd581c289 # Subpages Only
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 421ae1ea-e587-4298-9299-3e263d64f844
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 996ff7d6-af85-4493-9cb4-9d5ad2b93779
+        userCondition: null
+fields:
+  33f72036-934b-4745-8799-ae2cb41d1fbc: # Pages
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pages
+    instructions: null
+    name: Pages
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:0d091394-f7ed-4782-b499-a2e3e8e97b75' # Modular Pages
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  c1ffcbe1-918c-4b1e-b963-544bd581c289: # Subpages Only
+    columnSuffix: nugbylxw
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: subpagesOnly
+    instructions: null
+    name: 'Subpages Only'
+    searchable: false
+    settings:
+      default: false
+      offLabel: 'The Selected Entry'
+      onLabel: 'Only the children of the entry'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: listing
+name: Listing
+sortOrder: 3
