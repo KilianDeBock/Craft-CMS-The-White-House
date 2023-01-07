@@ -12,4 +12,6 @@ mix.browserSync({
   open: false,
   notify: false,
   files: ["./templates/**/*", "./src/**/*", "./web/**/*"],
+  reloadDelay: 1000,
+  injectChanges: false,
 });
