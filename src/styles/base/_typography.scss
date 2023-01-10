@@ -53,25 +53,25 @@ a.link.hidden {
 }
 
 h1 {
-  font-size: 3.052rem
+  font-size: v.$heading-1
 }
 
 h2 {
-  font-size: 2.441rem
+  font-size: v.$heading-2
 }
 
 h3 {
-  font-size: 1.953rem
+  font-size: v.$heading-3
 }
 
 h4 {
-  font-size: 1.563rem
+  font-size: v.$heading-4
 }
 
 h5 {
-  font-size: 1.563rem
+  font-size: v.$heading-5
 }
 
 p {
-  font-size: 1rem
+  font-size: v.$font-sm
 }

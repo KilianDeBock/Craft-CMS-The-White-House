@@ -137,7 +137,7 @@
       width: 100%;
       height: 100%;
       transition: fill 0.3s;
-      fill: v.$primary-font;
+      fill: v.$primary-accent;
     }
   }
 
@@ -155,7 +155,7 @@
         font-family: 'Bruta Pro', Helvetica, Arial, sans-serif;
         font-size: v.$font-sm;
         height: auto;
-        color: v.$primary-font;
+        color: v.$primary-accent;
 
         .main-nav__menu-item--side {
           margin-top: v.$spacing-sm;
@@ -243,7 +243,7 @@
     }
   }
 
-  @include m.screen(v.$col-xxxl) {
+  @include m.screen(v.$col-3xl) {
     .main-nav__tiny-menu {
       display: flex;
       gap: v.$spacing-base
@@ -261,6 +261,7 @@
     .main-nav__main-section {
       display: flex;
       align-items: center;
+      flex-direction: row;
       margin-top: v.$spacing-3xl;
 
       > :last-child {

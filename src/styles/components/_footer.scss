@@ -14,8 +14,8 @@
     justify-content: space-between;
     padding: v.$spacing-xxl;
     border: .15rem solid v.$primary;
-    border-radius: v.$spacing-base;
     gap: v.$spacing-6xl;
+    @include m.box-radius;
 
     .footer__form-logo {
       display: none;
@@ -164,7 +164,7 @@
 
         .logo {
           transition: fill .2s ease;
-          fill: v.$gold;
+          fill: v.$secondary;
 
           &:hover {
             fill: v.$selection;
