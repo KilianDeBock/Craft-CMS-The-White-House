@@ -11,8 +11,6 @@
       console.log("Eventlisteners added!");
     },
     registerListeners() {
-      const scrollbarWidth = this.$body.offsetWidth - this.$body.clientWidth;
-      console.log(scrollbarWidth);
       this.$mainNavInput.addEventListener("click", (event) => {
         if (event.target.checked) {
           return (this.$body.style = "overflow: hidden");
