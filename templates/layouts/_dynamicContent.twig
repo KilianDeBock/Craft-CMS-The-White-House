@@ -2,22 +2,7 @@
 {% if entry is defined and entry.dynamicContent is defined %}
     {# Go thru the items in the content #}
     {% for c in entry.dynamicContent %}
-        {# Check if the content item has a type variable. #}
-        {% if c.type is not defined %}
-            {# This is almost imposable! But we check anyways. #}
-
-            {# If type is "textWithImage" load its component #}
-        {% elseif c.type == "textWithImage" %}
-            {% include 'components/_textWithImage' %}
-
-            {# If type is "imageBanner" load its component #}
-        {% elseif c.type == "imageBanner" %}
-            {% include 'components/_imageBanner' %}
-
-            {# If type is "listing" load its component #}
-        {% elseif c.type == "listing" %}
-            {% include 'components/_listing' %}
-
-        {% endif %}
+        {# Load component #}
+        {% include 'components/_'~c.type ignore missing %}
     {% endfor %}
 {% endif %}

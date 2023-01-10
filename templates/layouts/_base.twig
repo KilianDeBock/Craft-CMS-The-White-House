@@ -4,7 +4,7 @@
     {% include "partials/_meta" %}
 
     <link rel="stylesheet" href="{{ mix('app.css') }}">
-    <title>{{ title ?? 'The White House' }}</title>
+    <title>{{ entry.title~" | The White House" ?? 'The White House' }}</title>
 </head>
 <body>
 {% set sites = craft.app.sites.getAllSites() %}
