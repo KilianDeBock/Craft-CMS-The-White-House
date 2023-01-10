@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: home
-name: Home
+handle: blogs
+name: Blogs
 previewTargets:
   -
     __assoc__:
@@ -19,11 +19,11 @@ siteSettings:
   3eafd726-10bf-42af-9b5b-87290c5ed572: # The White House
     enabledByDefault: true
     hasUrls: true
-    template: layouts/_default.twig
-    uriFormat: __home__
+    template: layouts/default
+    uriFormat: 'briefing-room/{slug}'
   5007c2b1-84b7-43a5-a14c-05c95607d86b: #  La casa Blanca
     enabledByDefault: true
     hasUrls: true
-    template: layouts/_default.twig
-    uriFormat: __home__
-type: single
+    template: layouts/default
+    uriFormat: 'briefing-room/{slug}'
+type: channel
