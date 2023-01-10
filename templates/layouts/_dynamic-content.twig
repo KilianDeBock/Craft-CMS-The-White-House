@@ -3,6 +3,6 @@
     {# Go thru the items in the content #}
     {% for c in entry.dynamicContent %}
         {# Load component #}
-        {% include 'components/_'~c.type ignore missing %}
+        {% include 'blocks/_'~c.type ignore missing %}
     {% endfor %}
 {% endif %}

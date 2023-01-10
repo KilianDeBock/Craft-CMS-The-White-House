@@ -1,0 +1,22 @@
+{# Check if required fields are defined. #}
+{% if c.text is defined and c.image is defined and c.orientation is defined %}
+    <section class="text-with-image{% if c.orientation %} text-with-image--reversed{% endif %}">
+        {% include 'components/_image' with { image: c.image.one(), classes: "text-with-image__image" } %}
+        <article class="text-with-image__text">
+            {% if c.textTitle is defined %}
+                {% if c.aboutTitle is defined %}<p
+                        class="text-with-image__about-title">{{ c.aboutTitle }}</p>{% endif %}
+                <h2 class="text-with-image__title">{{ c.textTitle }}</h2>
+                <hr class="text-with-image__spacer">
+            {% endif %}
+            <p>{{ c.text }}</p>
+            {% if c.internalLinks is defined %}
+                <ul class="text-with-image__links">
+                    {% for link in c.internalLinks %}
+                        <li><a class="text-with-image__link" href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </article>
+    </section>
+{% endif %}
