@@ -67,25 +67,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8 # Links
+            fieldUid: 9f68af31-28ab-413c-8bc3-c063b0ce7310 # Internal Links
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d42e388b-ed39-409a-ada9-b1f3704e3931
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: b12a696b-b0f6-4259-8d02-1e2a99f17dc2 # Link Titles
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 09acec07-29e7-4f8a-845c-eb49ec70d086
+            uid: c9343d95-fb7d-4c49-97e4-1142b4a177ad
             userCondition: null
             warning: null
             width: 100
@@ -108,33 +96,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Lightswitch
-  65724e68-da04-4ed5-8886-93db1c160245: # About Title
-    columnSuffix: vdqrvcwc
-    contentColumnType: text
-    fieldGroup: null
-    handle: aboutTitle
-    instructions: null
-    name: 'About Title'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8: # Links
-    columnSuffix: ebvmhwbe
+  9f68af31-28ab-413c-8bc3-c063b0ce7310: # Internal Links
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: links
+    handle: internalLinks
     instructions: null
-    name: Links
+    name: 'Internal Links'
     searchable: false
     settings:
       allowSelfRelations: false
@@ -163,13 +131,13 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  b12a696b-b0f6-4259-8d02-1e2a99f17dc2: # Link Titles
-    columnSuffix: xxovzupo
+  65724e68-da04-4ed5-8886-93db1c160245: # About Title
+    columnSuffix: vdqrvcwc
     contentColumnType: text
     fieldGroup: null
-    handle: linkTitles
-    instructions: 'Place every Title on a new line, same order as links above'
-    name: 'Link Titles'
+    handle: aboutTitle
+    instructions: null
+    name: 'About Title'
     searchable: false
     settings:
       byteLimit: null
@@ -177,7 +145,7 @@ fields:
       code: false
       columnType: null
       initialRows: 4
-      multiline: true
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
@@ -241,17 +209,26 @@ fields:
     name: Text
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      availableTransforms: ''
+      availableVolumes:
+        - 36d3245f-b1be-4e8c-9968-66bbe04dcbee # Images
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
+    type: craft\redactor\Field
   f946788c-ff97-49da-a4c6-9add990f5da9: # Title
     columnSuffix: afolcutm
     contentColumnType: text

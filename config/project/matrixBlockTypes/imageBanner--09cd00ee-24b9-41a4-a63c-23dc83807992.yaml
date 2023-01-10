@@ -43,7 +43,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9e054beb-e66b-47da-9f1c-e3ec067dae3a # Button Text
+            fieldUid: 9e054beb-e66b-47da-9f1c-e3ec067dae3a # Link Text
             instructions: null
             label: null
             required: false
@@ -55,7 +55,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3ae2f80e-8485-4a14-b15c-7ea3170bbfa1 # Button Link
+            fieldUid: 3ae2f80e-8485-4a14-b15c-7ea3170bbfa1 # Link
             instructions: null
             label: null
             required: false
@@ -69,13 +69,13 @@ fieldLayouts:
         uid: d0c04ebf-b47e-4571-a633-1264da169bbe
         userCondition: null
 fields:
-  3ae2f80e-8485-4a14-b15c-7ea3170bbfa1: # Button Link
+  3ae2f80e-8485-4a14-b15c-7ea3170bbfa1: # Link
     columnSuffix: loakmhfo
     contentColumnType: string(255)
     fieldGroup: null
-    handle: buttonLink
+    handle: linkUrl
     instructions: null
-    name: 'Button Link'
+    name: Link
     searchable: false
     settings:
       maxLength: 255
@@ -84,13 +84,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  9e054beb-e66b-47da-9f1c-e3ec067dae3a: # Button Text
+  9e054beb-e66b-47da-9f1c-e3ec067dae3a: # Link Text
     columnSuffix: mymvdxcm
     contentColumnType: text
     fieldGroup: null
-    handle: buttonText
+    handle: linkText
     instructions: null
-    name: 'Button Text'
+    name: 'Link Text'
     searchable: false
     settings:
       byteLimit: null
@@ -162,17 +162,26 @@ fields:
     name: Text
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      availableTransforms: ''
+      availableVolumes:
+        - 36d3245f-b1be-4e8c-9968-66bbe04dcbee # Images
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
+    type: craft\redactor\Field
   77577163-1b22-43a5-9e0e-5bfccb5b9fdb: # Tags
     columnSuffix: xiebevbv
     contentColumnType: text

@@ -1,4 +1,4 @@
-dateModified: 1673100419
+dateModified: 1673347453
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -20,12 +20,11 @@ meta:
     1aa7f9b9-d297-488b-ab52-b484f5d1b2f5: Type # Type
     2c4c9376-7a0e-4de6-857d-2f27434b77c7: 'Background: House' # Background: House
     2cd2c12c-93ed-48d5-8ddd-ad0b0ed64cd6: Image # Image
-    3ae2f80e-8485-4a14-b15c-7ea3170bbfa1: 'Button Link' # Button Link
+    3ae2f80e-8485-4a14-b15c-7ea3170bbfa1: Link # Link
     3b8ca1ed-9d3e-44d8-840c-99ec3f1782dc: Image # Image
     3cd8ddfe-3329-4536-9215-a271721f301c: 'Background: Seal' # Background: Seal
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
-    5bd20039-ca31-4d3f-8681-5925a78ca8a8: Column # Column
     6a7901a1-0b64-448c-888f-99eb69ded378: 'Address Street' # Address Street
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
     6f01013d-fa0e-4309-b260-3aae26cb9f50: 'Open Category' # Open Category
@@ -33,7 +32,8 @@ meta:
     9c43c6f3-3730-4df2-85c6-7df3e3e50bb4: 'Zip Code' # Zip Code
     9cc86ca9-d609-4a19-af34-9619573d5e5c: Default # Default
     09cd00ee-24b9-41a4-a63c-23dc83807992: 'Image Banner' # Image Banner
-    9e054beb-e66b-47da-9f1c-e3ec067dae3a: 'Button Text' # Button Text
+    9e054beb-e66b-47da-9f1c-e3ec067dae3a: 'Link Text' # Link Text
+    9f68af31-28ab-413c-8bc3-c063b0ce7310: 'Internal Links' # Internal Links
     19e20f27-3724-4b47-b3e9-b0ad2383a0b2: Home # Home
     22a8b269-3cf6-4503-aced-1a2d713cb5d5: 'Zip Code Example' # Zip Code Example
     32de1007-c8b5-4643-974a-64d929c888d0: Image # Image
@@ -46,17 +46,19 @@ meta:
     49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: Email # Email
     70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     75d8e328-49f4-4be8-b526-4258c4281f53: Text # Text
-    85c57acd-88f7-4df4-a4b0-3a601aa2471e: Grid # Grid
+    97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e: 'Rich Text' # Rich Text
     185c48f4-b753-45b8-8cd9-d10602eb510b: 'Menu (Close)' # Menu (Close)
     234eadcc-f114-47fe-a58a-7dedd1ff560b: 'Form Title' # Form Title
     280d61a5-e523-4275-99b1-081440834032: 'Email Example' # Email Example
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
+    422c261b-85e5-4648-b0a6-10c85dc5691d: 'x3 Grid List' # x3 Grid List
     462be729-9fd9-48e7-bb39-48bfd0d00a70: 'Text With Image' # Text With Image
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
     814e48ef-82ee-487d-a733-ae1d243784ba: Languages # Languages
     982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
     3642e428-90e0-4097-a6c5-fae8b26e4765: English # English
+    3802bc9e-c304-430c-98f1-79cbd24b8ebe: 'Page Children' # Page Children
     4315df8b-7cf8-440b-8a1c-bec0579abe4b: a # a
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
     7844f052-4862-4f54-9136-6f4040b5fdf6: a # a
@@ -65,6 +67,7 @@ meta:
     59851fed-6f3d-4369-b887-796f1a6ec5df: 'Zip Code Example' # Zip Code Example
     65724e68-da04-4ed5-8886-93db1c160245: 'About Title' # About Title
     77577163-1b22-43a5-9e0e-5bfccb5b9fdb: Tags # Tags
+    a1ecb538-5c70-4593-b2be-0db6386edffd: Pages # Pages
     a3a137ec-21ef-4b01-a9ad-2ef8384eb451: 'Address Name' # Address Name
     a2954b49-fe7a-4050-b64e-6e48f4c228a8: a # a
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
@@ -87,6 +90,8 @@ meta:
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
     d5da3258-5935-460e-8030-ca08e809e2c6: 'Form Mobile Notification' # Form Mobile Notification
     d5e83a19-472e-44ba-b93a-bd56e2cc0fa3: Submit # Submit
+    d8a2a0b3-99a1-42b4-915f-8312704f1b8b: 'Rich Text' # Rich Text
+    d38472d8-ce88-4da6-b971-c5e141f59a67: Blogs # Blogs
     daca072a-9826-4e7c-88ca-ddc719ef8b7f: 'Mobile Notification' # Mobile Notification
     dacdefa8-10bf-4e3a-8187-b0a8c18404d2: 'Included In Tiny Menu' # Included In Tiny Menu
     dc8cf8ed-171d-4143-9509-4368e2db57b9: 'Address City' # Address City
@@ -100,6 +105,7 @@ meta:
     f5299e2c-41f3-4664-b39c-e119a7e9387c: Text # Text
     f946788c-ff97-49da-a4c6-9add990f5da9: Title # Title
     fb490549-947d-485d-873a-41b528f48fcc: 'Menu (open)' # Menu (open)
+    fbcd53ec-1711-485c-b37c-a59270f4501f: Default # Default
 plugins:
   contact-form:
     edition: standard
@@ -123,6 +129,10 @@ plugins:
     settings:
       assetPath: dist
       publicPath: web
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: pro
   live: true
