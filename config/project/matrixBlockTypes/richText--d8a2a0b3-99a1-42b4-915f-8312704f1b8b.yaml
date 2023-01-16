@@ -52,4 +52,4 @@ fields:
     type: craft\redactor\Field
 handle: richText
 name: 'Rich Text'
-sortOrder: 4
+sortOrder: 5

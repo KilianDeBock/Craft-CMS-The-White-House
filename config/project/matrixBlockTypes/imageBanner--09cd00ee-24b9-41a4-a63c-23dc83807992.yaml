@@ -204,4 +204,4 @@ fields:
     type: craft\fields\PlainText
 handle: imageBanner
 name: 'Image Banner'
-sortOrder: 2
+sortOrder: 3

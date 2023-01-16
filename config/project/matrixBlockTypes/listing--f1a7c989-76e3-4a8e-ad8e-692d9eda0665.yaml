@@ -85,4 +85,4 @@ fields:
     type: craft\fields\Lightswitch
 handle: listing
 name: Listing
-sortOrder: 3
+sortOrder: 4

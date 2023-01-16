@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.spacer {
+  display: block;
+  height: v.$spacing-6xl;
+  border: none;
+}

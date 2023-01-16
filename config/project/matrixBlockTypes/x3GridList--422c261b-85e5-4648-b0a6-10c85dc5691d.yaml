@@ -85,4 +85,4 @@ fields:
     type: craft\fields\Entries
 handle: x3GridList
 name: 'x3 Grid List'
-sortOrder: 5
+sortOrder: 6
