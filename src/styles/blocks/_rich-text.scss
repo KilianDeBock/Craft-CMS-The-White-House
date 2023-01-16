@@ -7,9 +7,27 @@
   flex-direction: column;
   gap: v.$spacing-large;
   max-width: 80%;
+  @include m.rich-text;
   @include m.mq(lg) {
     max-width: 50%;
   }
 
-  @include m.rich-text;
+  &.rich-text--big > *:first-child:first-letter {
+    color: v.$secondary-font;
+    float: left;
+    font-weight: 600;
+    font-size: v.$font-6xl;
+    letter-spacing: .1em;
+    line-height: 69%;
+    margin: 0 10px 0 0;
+  }
+
+  blockquote {
+    border-left: v.$spacing-xsm solid v.$secondary;
+    padding-left: v.$spacing-medium;
+
+    strong, b {
+      color: v.$secondary
+    }
+  }
 }

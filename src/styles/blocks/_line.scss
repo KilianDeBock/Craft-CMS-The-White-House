@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.line {
+  border: none;
+  height: 2px;
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  background-color: v.$primary;
+}

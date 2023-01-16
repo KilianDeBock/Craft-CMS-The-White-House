@@ -139,4 +139,4 @@ fields:
     type: craft\fields\Lightswitch
 handle: sideBySide
 name: 'Side By Side'
-sortOrder: 8
+sortOrder: 6

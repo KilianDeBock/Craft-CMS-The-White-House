@@ -1,28 +1,28 @@
 field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
 fieldLayouts:
-  239f4fc5-76a0-48ee-8e3e-d4be65dda9cd:
+  39e5f024-17b4-42b3-bf89-a80b0a498ec3:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e # Rich Text
+            fieldUid: bfc1f3cc-23bd-4276-96aa-70145ecb622d # Rich Text
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7944eab7-bb0b-4c0e-bd39-b1e871ad433f
+            uid: 145bdf52-31f3-4f1c-b47a-fc073ee55d85
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 600ca490-cbaf-464a-8a72-8b507d052d6b
+        uid: 2af881d5-3c95-4938-afbd-3d5a1c3f9094
         userCondition: null
 fields:
-  97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e: # Rich Text
-    columnSuffix: wbvcmnau
+  bfc1f3cc-23bd-4276-96aa-70145ecb622d: # Rich Text
+    columnSuffix: zsydssyn
     contentColumnType: text
     fieldGroup: null
     handle: richText
@@ -50,6 +50,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-handle: richText
-name: 'Rich Text'
-sortOrder: 3
+handle: richTextBig
+name: 'Rich Text (first letter bigger)'
+sortOrder: 4

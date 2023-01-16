@@ -1,0 +1,12 @@
+{% extends "layouts/_default" %}
+
+{% block content %}
+    <main class="container">
+        {% if entry is defined and entry.dynamicContent is defined %}
+            {# Go thru the items in the content #}
+            {% for c in entry.dynamicContent %}
+                {# Load component #}
+                {% include 'blocks/_'~c.type ignore missing %}
+            {% endfor %}
+        {% endif %}</main>
+{% endblock %}

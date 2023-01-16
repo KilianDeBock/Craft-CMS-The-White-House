@@ -251,4 +251,4 @@ fields:
     type: craft\fields\PlainText
 handle: textWithImage
 name: 'Text With Image'
-sortOrder: 2
+sortOrder: 5

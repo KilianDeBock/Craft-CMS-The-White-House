@@ -24,6 +24,7 @@ strong {
 }
 
 p > a,
+.rich-text a,
 a.link {
   line-height: 180%;
   display: inline;
@@ -39,6 +40,7 @@ a.link {
 }
 
 p > a.hidden,
+.rich-text a.hidden,
 a.link.hidden {
   border-color: transparent;
 

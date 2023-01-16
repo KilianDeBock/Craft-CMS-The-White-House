@@ -1,39 +1,59 @@
 field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
 fieldLayouts:
-  bf9b1ad3-df84-4630-8836-8dc81c4708b9:
+  99cc52c9-444b-40fe-be22-e96085f0abf9:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 33f72036-934b-4745-8799-ae2cb41d1fbc # Pages
+            fieldUid: 601ae163-99d1-46f9-858b-37589e119ab1 # Title
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4487e9c2-384b-4018-83d7-7aec462faf06
+            uid: ef0698f7-bcfe-467e-85f4-6143f97e7c47
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: c1ffcbe1-918c-4b1e-b963-544bd581c289 # Subpages Only
+            fieldUid: b97cc793-a322-48f0-a984-237f34532a4e # Pages
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 421ae1ea-e587-4298-9299-3e263d64f844
+            uid: 6f676a09-2e2d-4604-9ee4-ed8a10b86a92
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 996ff7d6-af85-4493-9cb4-9d5ad2b93779
+        uid: 0f7892e1-5296-48d1-824d-d2827d4db709
         userCondition: null
 fields:
-  33f72036-934b-4745-8799-ae2cb41d1fbc: # Pages
+  601ae163-99d1-46f9-858b-37589e119ab1: # Title
+    columnSuffix: tgkjtnsy
+    contentColumnType: text
+    fieldGroup: null
+    handle: titleText
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b97cc793-a322-48f0-a984-237f34532a4e: # Pages
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -45,7 +65,7 @@ fields:
       allowSelfRelations: false
       localizeRelations: false
       maxRelations: null
-      minRelations: null
+      minRelations: 1
       selectionCondition:
         __assoc__:
           -
@@ -68,21 +88,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  c1ffcbe1-918c-4b1e-b963-544bd581c289: # Subpages Only
-    columnSuffix: nugbylxw
-    contentColumnType: boolean
-    fieldGroup: null
-    handle: subpagesOnly
-    instructions: null
-    name: 'Subpages Only'
-    searchable: false
-    settings:
-      default: false
-      offLabel: 'The Selected Entry'
-      onLabel: 'Only the children of the entry'
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Lightswitch
-handle: listing
-name: Listing
-sortOrder: 9
+handle: sideMenu
+name: 'side menu'
+sortOrder: 11

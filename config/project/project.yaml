@@ -1,4 +1,4 @@
-dateModified: 1673875986
+dateModified: 1673880222
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -25,7 +25,7 @@ meta:
     3cd8ddfe-3329-4536-9215-a271721f301c: 'Background: Seal' # Background: Seal
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
-    4b2cacf6-b1e0-4ec5-970f-e5bc3e286df4: Spacer # Spacer
+    4b2cacf6-b1e0-4ec5-970f-e5bc3e286df4: 'White Space' # White Space
     6a7901a1-0b64-448c-888f-99eb69ded378: 'Address Street' # Address Street
     6b0f3092-774c-4b18-879a-ebc956384fc5: 'Page Blocks' # Page Blocks
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
@@ -51,12 +51,14 @@ meta:
     70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     75d8e328-49f4-4be8-b526-4258c4281f53: Text # Text
     97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e: 'Rich Text' # Rich Text
+    98ef6ab3-35cf-4a15-bbc9-d97a7abd092f: 'Short Line / Text Breaker' # Short Line / Text Breaker
     185c48f4-b753-45b8-8cd9-d10602eb510b: 'Menu (Close)' # Menu (Close)
     234eadcc-f114-47fe-a58a-7dedd1ff560b: 'Form Title' # Form Title
     280d61a5-e523-4275-99b1-081440834032: 'Email Example' # Email Example
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
     422c261b-85e5-4648-b0a6-10c85dc5691d: 'x3 Grid List' # x3 Grid List
     462be729-9fd9-48e7-bb39-48bfd0d00a70: 'Text With Image' # Text With Image
+    601ae163-99d1-46f9-858b-37589e119ab1: Title # Title
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
     814e48ef-82ee-487d-a733-ae1d243784ba: Languages # Languages
     982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
@@ -80,13 +82,17 @@ meta:
     aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: 'Zip Code' # Zip Code
     b9f18fe1-9976-4d62-abf6-8e133495e7d6: Title # Title
     b12a696b-b0f6-4259-8d02-1e2a99f17dc2: 'Link Titles' # Link Titles
+    b17dfb6b-773f-4316-9cc7-e6c97dcf6c24: 'side menu' # side menu
+    b97cc793-a322-48f0-a984-237f34532a4e: Pages # Pages
     b8558ecb-a164-4c5c-9b9d-1d0ee1b884dc: 'Sign Up' # Sign Up
     b1148404-3272-4249-ad35-fe02e4097a71: 'Logo: Text' # Logo: Text
     bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
+    bfc1f3cc-23bd-4276-96aa-70145ecb622d: 'Rich Text' # Rich Text
     bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
     c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Subpages Only' # Subpages Only
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
+    c501d8c5-7222-4355-90fb-20cf6ac01208: 'Rich Text (first letter bigger)' # Rich Text (first letter bigger)
     c65369b0-f49d-4bc9-8947-a1dd757dcc55: Socials # Socials
     c93718ce-e876-40bb-9d7e-d071cfe0ff91: 'Translations Connect Form' # Translations Connect Form
     ca34e5c9-7022-4cb1-b264-963748529589: Spanish # Spanish
