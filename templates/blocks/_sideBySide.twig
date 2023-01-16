@@ -1,0 +1,9 @@
+<section class="side-by-side{% if c.flipped %} side-by-side--flipped{% endif %}">
+    {% include 'components/_image' with {
+        image: c.image.one(),
+        classes: 'side-by-side__image'
+    } %}
+    <article class="side-by-side__text">
+        {{ c.text }}
+    </article>
+</section>

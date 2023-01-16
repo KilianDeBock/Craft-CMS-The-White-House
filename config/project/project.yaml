@@ -1,4 +1,4 @@
-dateModified: 1673872489
+dateModified: 1673875986
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -43,8 +43,10 @@ meta:
     035cb29a-627e-444e-8574-f845a0785804: Branding # Branding
     36d3245f-b1be-4e8c-9968-66bbe04dcbee: Images # Images
     36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: 'Button Url' # Button Url
+    38dc6ced-ff2a-4fec-b146-23602fb24211: Image # Image
     43b4a765-8916-4046-babd-ac1a5fb13959: 'Static Translations' # Static Translations
     44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema' # Public Schema
+    47e7334a-a9b2-4df9-815a-6806d7741957: 'Side By Side' # Side By Side
     49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: Email # Email
     70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     75d8e328-49f4-4be8-b526-4258c4281f53: Text # Text
@@ -97,9 +99,11 @@ meta:
     d38472d8-ce88-4da6-b971-c5e141f59a67: Blogs # Blogs
     daca072a-9826-4e7c-88ca-ddc719ef8b7f: 'Mobile Notification' # Mobile Notification
     dacdefa8-10bf-4e3a-8187-b0a8c18404d2: 'Included In Tiny Menu' # Included In Tiny Menu
+    dc7d5115-cfb8-4552-a072-2f3cb028f2fa: Text # Text
     dc8cf8ed-171d-4143-9509-4368e2db57b9: 'Address City' # Address City
     dd60b55d-a074-42e5-9421-5d350544bd5b: 'Overwrite Level Depth' # Overwrite Level Depth
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
+    eaa4741e-d911-4d7d-b53d-22870f138724: Flipped # Flipped
     edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo: Primary Lined' # Logo: Primary Lined
     ef2f048f-b5af-470b-b0da-708caa33f4a3: Image # Image
     f1a7c989-76e3-4a8e-ad8e-692d9eda0665: Listing # Listing

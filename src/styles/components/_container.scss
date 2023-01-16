@@ -16,8 +16,6 @@
 
   @include m.mq(lg) {
     max-width: v.$col-lg;
-
-
   }
 
   @include m.mq(xl) {

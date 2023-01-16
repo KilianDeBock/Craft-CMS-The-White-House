@@ -6,19 +6,10 @@
   display: flex;
   flex-direction: column;
   gap: v.$spacing-large;
-  font-family: 'Mercury', Helvetica, Arial, sans-serif;
   max-width: 80%;
   @include m.mq(lg) {
     max-width: 50%;
   }
 
-  h1 {
-    text-align: center;
-    @include m.font2;
-  }
-
-  p {
-    font-size: v.$font-base;
-    line-height: 176%;
-  }
+  @include m.rich-text;
 }

@@ -1,0 +1,46 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.side-by-side {
+  display: flex;
+  flex-direction: column;
+
+  @include m.mq(lg) {
+    flex-direction: row;
+  }
+
+  &.side-by-side--flipped {
+    flex-direction: row-reverse;
+  }
+
+  .side-by-side__image {
+    width: 100%;
+    flex-grow: 0;
+
+    @include m.box-radius;
+
+    @include m.mq(lg) {
+      max-width: 50%;
+    }
+  }
+
+  .side-by-side__text {
+    padding: v.$spacing-medium;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include m.rich-text;
+
+    @include m.mq(lg) {
+      max-width: 50%;
+
+      > * {
+        max-width: 60%;
+      }
+    }
+  }
+}

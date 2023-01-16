@@ -2,6 +2,7 @@
 @use '../abstracts/mixins' as m;
 
 .dynamic-content {
+  padding-top: v.$spacing-sm;
   display: flex;
   flex-direction: column;
   gap: v.$spacing-3xl;

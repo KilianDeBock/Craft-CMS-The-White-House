@@ -28,3 +28,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin rich-text {
+  font-family: 'Mercury', Helvetica, Arial, sans-serif;
+
+  h1 {
+    text-align: center;
+    @include font2;
+  }
+
+  p {
+    font-size: v.$font-base;
+    line-height: 176%;
+  }
+}

@@ -1,0 +1,142 @@
+field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+fieldLayouts:
+  04796c24-b6b4-44fd-a945-27aded7b8bae:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 38dc6ced-ff2a-4fec-b146-23602fb24211 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 713fcad0-c03e-4ee7-b63e-6cf02ab672b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dc7d5115-cfb8-4552-a072-2f3cb028f2fa # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fae9924a-16a6-4e61-80a9-28c8359588bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eaa4741e-d911-4d7d-b53d-22870f138724 # Flipped
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd050883-b9d6-41b2-af61-39d605c995bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 23e2de9f-57e4-41cf-bb76-fab5bae1597a
+        userCondition: null
+fields:
+  38dc6ced-ff2a-4fec-b146-23602fb24211: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  dc7d5115-cfb8-4552-a072-2f3cb028f2fa: # Text
+    columnSuffix: wlfwgrsf
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  eaa4741e-d911-4d7d-b53d-22870f138724: # Flipped
+    columnSuffix: rzswqctb
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: flipped
+    instructions: null
+    name: Flipped
+    searchable: false
+    settings:
+      default: false
+      offLabel: 'Image Left - Text Right'
+      onLabel: 'Text Left - Image Right'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: sideBySide
+name: 'Side By Side'
+sortOrder: 8
