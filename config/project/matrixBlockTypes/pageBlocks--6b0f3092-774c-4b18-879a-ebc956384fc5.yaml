@@ -1,0 +1,61 @@
+field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+fieldLayouts:
+  33166396-7b7f-4e45-8d41-72f443e12566:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 794365a4-f390-43f7-853a-9d02b739bc19 # pages
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aff7a0ab-694c-4ede-baf7-4eca1b93c151
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fba84d93-b357-4094-904e-d513dd5f2c77
+        userCondition: null
+fields:
+  794365a4-f390-43f7-853a-9d02b739bc19: # pages
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pages
+    instructions: null
+    name: pages
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:0d091394-f7ed-4782-b499-a2e3e8e97b75' # Modular Pages
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: pageBlocks
+name: 'Page Blocks'
+sortOrder: 7

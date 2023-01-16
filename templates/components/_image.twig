@@ -5,7 +5,7 @@
     {# Check if image is svg, use svg if, else img. #}
     {% if image and image.extension == 'svg' %}
         {{ svg(image) | attr({ class: classes }) }}
-    {% else %}
+    {% elseif image is not empty %}
         <img class="{{ classes }}" src="{{ image.url }}" alt="{{ image.title }}"/>
     {% endif %}
 {% endif %}

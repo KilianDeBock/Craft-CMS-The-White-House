@@ -1,4 +1,4 @@
-dateModified: 1673871734
+dateModified: 1673872489
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -25,8 +25,9 @@ meta:
     3cd8ddfe-3329-4536-9215-a271721f301c: 'Background: Seal' # Background: Seal
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
-    4b2cacf6-b1e0-4ec5-970f-e5bc3e286df4: spacer
+    4b2cacf6-b1e0-4ec5-970f-e5bc3e286df4: Spacer # Spacer
     6a7901a1-0b64-448c-888f-99eb69ded378: 'Address Street' # Address Street
+    6b0f3092-774c-4b18-879a-ebc956384fc5: 'Page Blocks' # Page Blocks
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
     6f01013d-fa0e-4309-b260-3aae26cb9f50: 'Open Category' # Open Category
     8c7e7e8c-3551-46bc-b9c4-72b2207fa5c7: 'Email Example' # Email Example
@@ -67,6 +68,7 @@ meta:
     8386ab4f-1762-400b-af62-0239f5dd2cc2: Translations # Translations
     59851fed-6f3d-4369-b887-796f1a6ec5df: 'Zip Code Example' # Zip Code Example
     65724e68-da04-4ed5-8886-93db1c160245: 'About Title' # About Title
+    794365a4-f390-43f7-853a-9d02b739bc19: pages # pages
     77577163-1b22-43a5-9e0e-5bfccb5b9fdb: Tags # Tags
     a1ecb538-5c70-4593-b2be-0db6386edffd: Pages # Pages
     a3a137ec-21ef-4b01-a9ad-2ef8384eb451: 'Address Name' # Address Name

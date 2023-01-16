@@ -1,0 +1,13 @@
+<ul class="page-blocks">
+    {% for page in c.pages %}
+        <li class="page-blocks__item">
+            <a class="page-blocks__link" href="{{ page.url }}">
+                {% include 'components/_image' with {
+                    image: page.image.one(),
+                    classes: "page-blocks__image"
+                } %}
+                <span class="page-blocks__text">{{ page.title }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

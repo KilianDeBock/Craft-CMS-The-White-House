@@ -2,12 +2,15 @@
 @use '../abstracts/mixins' as m;
 
 .rich-text {
-  max-width: 50%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: v.$spacing-large;
   font-family: 'Mercury', Helvetica, Arial, sans-serif;
+  max-width: 80%;
+  @include m.mq(lg) {
+    max-width: 50%;
+  }
 
   h1 {
     text-align: center;

@@ -1,0 +1,27 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.page-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: v.$spacing-large;
+  justify-content: center;
+  padding: 0 v.$spacing-large;
+
+  .page-blocks__item {
+    @include m.mq(lg) {
+      width: 23%;
+    }
+
+    .page-blocks__image {
+      aspect-ratio: 1.1/1;
+      object-fit: cover;
+      @include m.box-radius;
+    }
+
+    .page-blocks__text {
+      display: inline-block;
+      margin-top: v.$spacing-base;
+    }
+  }
+}
