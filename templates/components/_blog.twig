@@ -1,5 +1,5 @@
 <section class="blog">
-    {% if blogCategory is not defined or entry != (entry.blogCategory | first).title %}
+    {% if entry.blogCategory is not empty and entry != (entry.blogCategory | first).title %}
         <em class="blog__date">{{ entry.postDate|date('F j, Y') }}</em>
     {% endif %}
     <h1 class="blog__title">{{ entry.title }}</h1>
