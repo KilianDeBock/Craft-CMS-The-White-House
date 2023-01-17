@@ -29,6 +29,14 @@
   justify-content: center;
 }
 
+@mixin contained {
+  margin: 0 auto;
+  max-width: 80%;
+  @include mq(xl) {
+    max-width: 50%;
+  }
+}
+
 @mixin rich-text {
   font-family: 'Mercury', Helvetica, Arial, sans-serif;
 

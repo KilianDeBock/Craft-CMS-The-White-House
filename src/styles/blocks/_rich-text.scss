@@ -2,15 +2,11 @@
 @use '../abstracts/mixins' as m;
 
 .rich-text {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: v.$spacing-large;
-  max-width: 80%;
   @include m.rich-text;
-  @include m.mq(lg) {
-    max-width: 50%;
-  }
+  @include m.contained;
 
   &.rich-text--big > *:first-child:first-letter {
     color: v.$secondary-font;

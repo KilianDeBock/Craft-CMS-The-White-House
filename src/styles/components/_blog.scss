@@ -23,11 +23,7 @@
 .blog-menu {
   display: block;
   width: 100%;
-  margin: 0 auto;
-  max-width: 80%;
-  @include m.mq(lg) {
-    max-width: 50%;
-  }
+  @include m.contained;
 
   .blog-menu__selector {
     display: flex;
