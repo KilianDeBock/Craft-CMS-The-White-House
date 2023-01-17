@@ -2,5 +2,7 @@
 
 {% block content %}
     {# {% include 'components/_breadcrumbs' %} #}
-    {% include 'layouts/_dynamic-content' %}
+    {% include 'layouts/_dynamic-content' with {
+        inContainer: true,
+    } %}
 {% endblock %}

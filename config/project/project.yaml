@@ -1,4 +1,4 @@
-dateModified: 1673880222
+dateModified: 1673951771
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -15,6 +15,7 @@ meta:
   __names__:
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
     0d6b7f03-afd5-40de-8d15-84bd795db091: 'Logo: Primary Background' # Logo: Primary Background
+    0dc0a7c6-ac9a-46d1-81bc-b3e03e69eaae: Blog # Blog
     0fc7dbef-a9ec-4ba6-8e74-5b6b9320d679: 'Included In Main Menu' # Included In Main Menu
     0ff20944-75b2-45ac-91e1-307fefae9144: 'Included In Footer Menu' # Included In Footer Menu
     1aa7f9b9-d297-488b-ab52-b484f5d1b2f5: Type # Type
@@ -26,6 +27,7 @@ meta:
     3eafd726-10bf-42af-9b5b-87290c5ed572: 'The White House' # The White House
     3f780c23-eec5-4e12-8fff-c4dc3e71bd43: Description # Description
     4b2cacf6-b1e0-4ec5-970f-e5bc3e286df4: 'White Space' # White Space
+    5f73f028-f218-40c9-9e11-b9f9d8945125: 'Blog Category' # Blog Category
     6a7901a1-0b64-448c-888f-99eb69ded378: 'Address Street' # Address Street
     6b0f3092-774c-4b18-879a-ebc956384fc5: 'Page Blocks' # Page Blocks
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
@@ -44,6 +46,7 @@ meta:
     36d3245f-b1be-4e8c-9968-66bbe04dcbee: Images # Images
     36e36d3b-7a46-4738-98c0-9f5eb5f6b1a0: 'Button Url' # Button Url
     38dc6ced-ff2a-4fec-b146-23602fb24211: Image # Image
+    40d2f985-8715-431a-878e-31627323cfa9: 'Briefing Room Categories' # Briefing Room Categories
     43b4a765-8916-4046-babd-ac1a5fb13959: 'Static Translations' # Static Translations
     44e1d3fe-b971-432f-bcf5-904c0c42edf7: 'Public Schema' # Public Schema
     47e7334a-a9b2-4df9-815a-6806d7741957: 'Side By Side' # Side By Side
@@ -89,7 +92,7 @@ meta:
     bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
     bfc1f3cc-23bd-4276-96aa-70145ecb622d: 'Rich Text' # Rich Text
     bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
-    c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Subpages Only' # Subpages Only
+    c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Select The Children' # Subpages Only
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
     c501d8c5-7222-4355-90fb-20cf6ac01208: 'Rich Text (first letter bigger)' # Rich Text (first letter bigger)

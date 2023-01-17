@@ -1,0 +1,62 @@
+defaultPlacement: end
+fieldLayouts:
+  c73e2b5d-1a77-4d18-a712-bc8f24dd04d2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: db3831f0-e53c-413b-b588-74db5ccbd206
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f780c23-eec5-4e12-8fff-c4dc3e71bd43 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 021a07c0-06da-4ad5-9840-127e891dfa8e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7809af20-a412-4a9b-acb5-20bfe3b230ea
+        userCondition: null
+handle: briefingRoomCategories
+name: 'Briefing Room Categories'
+siteSettings:
+  3eafd726-10bf-42af-9b5b-87290c5ed572: # The White House
+    hasUrls: true
+    template: null
+    uriFormat: 'briefing-room-categories/{slug}'
+  5007c2b1-84b7-43a5-a14c-05c95607d86b: #  La casa Blanca
+    hasUrls: true
+    template: null
+    uriFormat: 'briefing-room-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 3deb63b2-d31f-4359-904e-f9ee816de2c1

@@ -1,5 +1,7 @@
 {# Check if we can load the dynamic content #}
+{% if inContainer is defined and inContainer %}
 <main class="dynamic-content container">
+    {% endif %}
     {% if entry is defined and entry.dynamicContent is defined %}
         {# Go thru the items in the content #}
         {% for c in entry.dynamicContent %}
@@ -7,4 +9,6 @@
             {% include 'blocks/_'~c.type ignore missing %}
         {% endfor %}
     {% endif %}
+    {% if inContainer is defined and inContainer %}
 </main>
+{% endif %}

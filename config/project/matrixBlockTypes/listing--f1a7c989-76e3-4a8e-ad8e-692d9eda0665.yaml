@@ -42,7 +42,7 @@ fields:
     name: Pages
     searchable: false
     settings:
-      allowSelfRelations: false
+      allowSelfRelations: true
       localizeRelations: false
       maxRelations: null
       minRelations: null
@@ -72,9 +72,9 @@ fields:
     columnSuffix: nugbylxw
     contentColumnType: boolean
     fieldGroup: null
-    handle: subpagesOnly
+    handle: subpages
     instructions: null
-    name: 'Subpages Only'
+    name: 'Select The Children'
     searchable: false
     settings:
       default: false

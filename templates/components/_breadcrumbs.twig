@@ -1,10 +1,19 @@
 {% set segments = craft.app.request.getSegments() %}
-<ul>
+{% if ulClass is not defined %}
+    {% set ulClass = "" %}
+{% endif %}
+{% if liClass is not defined %}
+    {% set liClass = "" %}
+{% endif %}
+{% if aClass is not defined %}
+    {% set aClass = "" %}
+{% endif %}
+<ul class="{{ ulClass }}">
     {% for segment in segments %}
         {% if not loop.last %}
             {% set page = craft.entries.slug(segment).one() %}
-            <li>
-                <a href="{{ page.url }}">
+            <li class="{{ liClass }}">
+                <a class="{{ aClass }}" href="{{ page.url }}">
                     {{ page.title }}
                 </a>
             </li>

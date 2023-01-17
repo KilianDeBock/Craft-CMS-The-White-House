@@ -1,0 +1,108 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.blog {
+  padding-top: v.$spacing-6xl;
+  text-align: center;
+
+  .blog__date {
+    font-size: v.$font-sm;
+    display: block;
+    margin-bottom: v.$spacing-base;
+    text-transform: uppercase;
+  }
+
+  .blog__title {
+    @include m.font2;
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 70%;
+  }
+
+  .blog__list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: v.$spacing-large 0;
+    margin: 0 auto;
+    max-width: 80%;
+    @include m.mq(lg) {
+      max-width: 50%;
+    }
+
+    @include m.mq(sm) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &:before,
+    &:after {
+      position: relative;
+      top: v.$spacing-base / -1;
+      content: "";
+      height: 1px;
+      width: 100%;
+      background-color: v.$medium;
+      display: block;
+    }
+
+    &:after {
+      top: v.$spacing-base;
+    }
+
+    .blog__item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      color: v.$primary-accent;
+
+      @include m.mq(sm) {
+        flex-direction: row;
+        gap: v.$spacing-xsm;
+      }
+
+      &:before {
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid #826553;
+        border-top: 4px solid transparent;
+        content: "";
+        display: block;
+        height: 0;
+        margin: 6px 16px;
+        transform: rotate(90deg);
+        width: 0;
+
+        @include m.mq(sm) {
+          transform: rotate(0);
+        }
+      }
+
+      &:first-child {
+        @include m.mq(sm) {
+          position: relative;
+          margin-left: v.$spacing-xxl;
+        }
+
+        &:after {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          content: "";
+          height: v.$spacing-large;
+          width: v.$spacing-xl;
+          padding: 0 2.5rem;
+          background-size: contain;
+          background: v.$primary-background url("/assets/icons/house.svg") no-repeat center center;
+
+          @include m.mq(sm) {
+            left: 0;
+            padding: 0;
+            transform: translate(v.$spacing-xl / -1, -25%);
+          }
+        }
+      }
+    }
+  }
+}

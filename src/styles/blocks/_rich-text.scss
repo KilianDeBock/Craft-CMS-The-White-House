@@ -30,4 +30,12 @@
       color: v.$secondary
     }
   }
+
+  ul {
+    list-style-type: disc;
+    margin-left: v.$spacing-medium;
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-base;
+  }
 }
