@@ -1,4 +1,4 @@
-dateModified: 1673958459
+dateModified: 1673962156
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -13,6 +13,7 @@ fs:
     url: $UPLOAD_URL
 meta:
   __names__:
+    0a1aa8d3-2672-42a2-ad0d-bfed6fe87d3c: 'Static Variables' # Static Variables
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
     0d6b7f03-afd5-40de-8d15-84bd795db091: 'Logo: Primary Background' # Logo: Primary Background
     0dc0a7c6-ac9a-46d1-81bc-b3e03e69eaae: Blog # Blog
@@ -37,9 +38,11 @@ meta:
     9cc86ca9-d609-4a19-af34-9619573d5e5c: Default # Default
     09cd00ee-24b9-41a4-a63c-23dc83807992: 'Image Banner' # Image Banner
     9e054beb-e66b-47da-9f1c-e3ec067dae3a: 'Link Text' # Link Text
+    9e8e49b9-ae55-46ee-a6e5-1eac97d296b2: Translations # Translations
     9f68af31-28ab-413c-8bc3-c063b0ce7310: 'Internal Links' # Internal Links
     19e20f27-3724-4b47-b3e9-b0ad2383a0b2: Home # Home
     22a8b269-3cf6-4503-aced-1a2d713cb5d5: 'Zip Code Example' # Zip Code Example
+    22cf8f5e-66e6-4c4c-8c48-ea6319dd88a1: Navigate # Navigate
     32de1007-c8b5-4643-974a-64d929c888d0: Image # Image
     33f72036-934b-4745-8799-ae2cb41d1fbc: Pages # Pages
     035cb29a-627e-444e-8574-f845a0785804: Branding # Branding
@@ -68,6 +71,7 @@ meta:
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
     3642e428-90e0-4097-a6c5-fae8b26e4765: English # English
     3802bc9e-c304-430c-98f1-79cbd24b8ebe: 'Page Children' # Page Children
+    4098e93e-04ad-4937-9f2f-f6e6b0eed8a8: Select # Select
     4315df8b-7cf8-440b-8a1c-bec0579abe4b: a # a
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
     7844f052-4862-4f54-9136-6f4040b5fdf6: a # a
@@ -75,6 +79,8 @@ meta:
     8386ab4f-1762-400b-af62-0239f5dd2cc2: Translations # Translations
     59851fed-6f3d-4369-b887-796f1a6ec5df: 'Zip Code Example' # Zip Code Example
     65724e68-da04-4ed5-8886-93db1c160245: 'About Title' # About Title
+    69891a2d-774d-42b8-8d50-cc9a114b24e8: 'Translations Blog' # Translations Blog
+    81287c45-43c9-4bc2-a59f-6bfd2355b2d0: Filter
     794365a4-f390-43f7-853a-9d02b739bc19: pages # pages
     77577163-1b22-43a5-9e0e-5bfccb5b9fdb: Tags # Tags
     a1ecb538-5c70-4593-b2be-0db6386edffd: Pages # Pages
@@ -83,6 +89,7 @@ meta:
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
     adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8: Links # Links
     aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: 'Zip Code' # Zip Code
+    b9b20de9-5a5e-497f-8c36-c67d29ddcdc8: All # All
     b9f18fe1-9976-4d62-abf6-8e133495e7d6: Title # Title
     b12a696b-b0f6-4259-8d02-1e2a99f17dc2: 'Link Titles' # Link Titles
     b17dfb6b-773f-4316-9cc7-e6c97dcf6c24: 'side menu' # side menu
@@ -92,6 +99,7 @@ meta:
     bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
     bfc1f3cc-23bd-4276-96aa-70145ecb622d: 'Rich Text' # Rich Text
     bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
+    c0b3a23c-e48b-46a9-a84b-5cd35fcc16c9: 'Blog Entry' # Blog Entry
     c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Select The Children' # Select The Children
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House

@@ -1,0 +1,142 @@
+field: 69891a2d-774d-42b8-8d50-cc9a114b24e8 # Translations Blog
+fieldLayouts:
+  ba24e901-2872-4c7a-a70b-8d21ff329a9f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 22cf8f5e-66e6-4c4c-8c48-ea6319dd88a1 # Navigate
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34686795-b818-4366-ad7b-05914eea90e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4098e93e-04ad-4937-9f2f-f6e6b0eed8a8 # Select
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cbe44fdb-393d-432c-bd1b-fa58aad174fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b9b20de9-5a5e-497f-8c36-c67d29ddcdc8 # All
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4cfaafca-d3aa-4966-a50d-9f492e36188d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 81287c45-43c9-4bc2-a59f-6bfd2355b2d0
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1bec887f-f7be-49c0-bf75-d8ab54a58327
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7555c38b-1cc6-4ce2-85cd-8d17e76e304c
+        userCondition: null
+fields:
+  22cf8f5e-66e6-4c4c-8c48-ea6319dd88a1: # Navigate
+    columnSuffix: esmjjpwl
+    contentColumnType: text
+    fieldGroup: null
+    handle: navigate
+    instructions: null
+    name: Navigate
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  4098e93e-04ad-4937-9f2f-f6e6b0eed8a8: # Select
+    columnSuffix: jegvantq
+    contentColumnType: text
+    fieldGroup: null
+    handle: select
+    instructions: null
+    name: Select
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: language
+    type: craft\fields\PlainText
+  81287c45-43c9-4bc2-a59f-6bfd2355b2d0:
+    columnSuffix: ujxqsfqs
+    contentColumnType: text
+    fieldGroup: null
+    handle: filter
+    instructions: null
+    name: Filter
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b9b20de9-5a5e-497f-8c36-c67d29ddcdc8: # All
+    columnSuffix: udwbieoo
+    contentColumnType: text
+    fieldGroup: null
+    handle: all
+    instructions: null
+    name: All
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: translations
+name: Translations
+sortOrder: 1

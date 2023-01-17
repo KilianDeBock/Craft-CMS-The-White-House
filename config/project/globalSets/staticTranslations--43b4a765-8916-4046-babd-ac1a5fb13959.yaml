@@ -55,6 +55,24 @@ fieldLayouts:
         name: 'Connect Form'
         uid: 777b5a9c-95ae-4862-a001-2371960b815f
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 69891a2d-774d-42b8-8d50-cc9a114b24e8 # Translations Blog
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 74dcd7c5-bb63-4f79-b490-c87ff35bf9de
+            userCondition: null
+            warning: null
+            width: 100
+        name: Blog
+        uid: 097f0bd2-7b5c-4b3a-895e-dc527320fbfc
+        userCondition: null
 handle: staticTranslations
 name: 'Static Translations'
 sortOrder: 2

@@ -5,3 +5,37 @@
     <h1 class="blog__title">{{ entry.title }}</h1>
     {% include 'components/_breadcrumbs' %}
 </section>
+{% set showBigOne = entry.children | length > 1 %}
+<section class="blog-menu">
+    <label class="blog-menu__selector{{ showBigOne ? "" : " keep" }}">
+        <span>{{ translations.blog.navigate }}</span>
+        <select name="blog__navigation" id="blog__navigation">
+            <option value="">{{ translations.blog.select }}</option>
+            <option value="{{ static.blogPage.url }}">{{ translations.blog.all }}</option>
+            {% for category in static.blogPage.children %}
+                <option value="{{ category.url }}">{{ category.title }}</option>
+            {% endfor %}
+        </select>
+    </label>
+    <article class="blog-menu__listing {{ showBigOne ? " show" : "" }}">
+        <span>{{ translations.blog.filter }}</span>
+        <ul class="blog-menu__list">
+            <li>
+                {% if static.blogPage.title == entry %}
+                    {{ translations.blog.all }}
+                {% else %}
+                    <a href="{{ static.blogPage.url }}" class="blog-menu__link link">{{ translations.blog.all }}</a>
+                {% endif %}
+            </li>
+            {% for category in static.blogPage.children %}
+                <li>
+                    {% if category.title == entry %}
+                        {{ category.title }}
+                    {% else %}
+                        <a href="{{ category.url }}" class="link">{{ category.title }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </article>
+</section>

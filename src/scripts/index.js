@@ -8,6 +8,7 @@
     cacheElements() {
       this.$body = document.querySelector("body");
       this.$mainNavInput = document.querySelector("#main-nav__opener");
+      this.$blogNavigation = document.querySelector("#blog__navigation");
       console.log("Eventlisteners added!");
     },
     registerListeners() {
@@ -17,7 +18,11 @@
         }
         return (this.$body.style = "");
       });
-      console.log("Eventlisteners added!");
+
+      this.$blogNavigation &&
+        this.$blogNavigation.addEventListener("change", (event) => {
+          if (event?.target?.value) window.location.href = event.target.value;
+        });
     },
   };
 
