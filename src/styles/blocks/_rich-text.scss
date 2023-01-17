@@ -34,4 +34,16 @@
     flex-direction: column;
     gap: v.$spacing-base;
   }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: v.$spacing-medium;
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-base;
+  }
+
+  a:not(:hover) {
+    color: v.$primary-accent;
+  }
 }
