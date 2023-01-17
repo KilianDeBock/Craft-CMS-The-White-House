@@ -1,12 +1,7 @@
 <section class="blog">
-    <em class="blog__date">{{ entry.postDate|date('F j, Y') }}</em>
+    {% if blogCategory is not defined or entry != (entry.blogCategory | first).title %}
+        <em class="blog__date">{{ entry.postDate|date('F j, Y') }}</em>
+    {% endif %}
     <h1 class="blog__title">{{ entry.title }}</h1>
-    {% include 'components/_breadcrumbs' with {
-        ulClass: "blog__list",
-        liClass: "blog__item",
-        aClass: "blog__link"
-    } %}
+    {% include 'components/_breadcrumbs' %}
 </section>
-
-
-

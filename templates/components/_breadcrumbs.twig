@@ -1,22 +1,15 @@
 {% set segments = craft.app.request.getSegments() %}
-{% if ulClass is not defined %}
-    {% set ulClass = "" %}
+{% if segments | length > 1 %}
+    <ul class="breadcrumbs">
+        {% for segment in segments %}
+            {% if not loop.last %}
+                {% set page = craft.entries.slug(segment).one() %}
+                <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="{{ page.url }}">
+                        {{ page.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 {% endif %}
-{% if liClass is not defined %}
-    {% set liClass = "" %}
-{% endif %}
-{% if aClass is not defined %}
-    {% set aClass = "" %}
-{% endif %}
-<ul class="{{ ulClass }}">
-    {% for segment in segments %}
-        {% if not loop.last %}
-            {% set page = craft.entries.slug(segment).one() %}
-            <li class="{{ liClass }}">
-                <a class="{{ aClass }}" href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>

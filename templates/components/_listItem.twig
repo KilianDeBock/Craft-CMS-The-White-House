@@ -1,0 +1,10 @@
+{% if page is defined %}
+    {% set category = page.parent %}
+    <li class="listing__item">
+        <a class="listing__link link hidden" href="{{ page.url }}">{{ page.title }}</a>
+        <div class="listing__details">
+            <em class="listing__date">{{ page.postDate|date('F j, Y') }}</em>
+            <a class="listing__category link hidden" href="{{ category.url }}">{{ category.title }}</a>
+        </div>
+    </li>
+{% endif %}

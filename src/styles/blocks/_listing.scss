@@ -1,0 +1,48 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.listing {
+  display: flex;
+  flex-direction: column;
+  gap: v.$spacing-xl;
+  margin: 0 auto;
+  max-width: 80%;
+  @include m.mq(lg) {
+    max-width: 50%;
+  }
+
+  .listing__item {
+    &:not(:last-child):after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: v.$medium;
+      margin-top: v.$spacing-xl;
+    }
+
+    .listing__link {
+      @include m.font2;
+      font-size: v.$heading-2;
+      line-height: 102%;
+      font-weight: normal;
+    }
+
+    .listing__category {
+      text-transform: uppercase;
+      font-size: v.$font-sm;
+      font-weight: 600;
+
+      &:not(:hover) {
+        color: v.$primary-accent;
+      }
+    }
+
+    .listing__date {
+      &:after {
+        content: '•';
+        margin: 0 v.$spacing-sm;
+      }
+    }
+  }
+}

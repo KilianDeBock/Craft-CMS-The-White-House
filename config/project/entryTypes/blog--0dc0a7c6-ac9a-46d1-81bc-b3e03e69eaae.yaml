@@ -59,7 +59,7 @@ fieldLayouts:
             fieldUid: 5f73f028-f218-40c9-9e11-b9f9d8945125 # Blog Category
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 99425558-1899-432c-988c-c6ac5b178460

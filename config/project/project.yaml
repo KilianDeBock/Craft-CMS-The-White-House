@@ -1,4 +1,4 @@
-dateModified: 1673951771
+dateModified: 1673958459
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -92,7 +92,7 @@ meta:
     bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
     bfc1f3cc-23bd-4276-96aa-70145ecb622d: 'Rich Text' # Rich Text
     bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
-    c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Select The Children' # Subpages Only
+    c1ffcbe1-918c-4b1e-b963-544bd581c289: 'Select The Children' # Select The Children
     c3d65eb4-6f64-4727-b7e5-f5d50c0bded9: 'Secondary Page' # Secondary Page
     c473eca2-49ef-44f4-9454-b7cb1cffa330: 'Craft White House' # Craft White House
     c501d8c5-7222-4355-90fb-20cf6ac01208: 'Rich Text (first letter bigger)' # Rich Text (first letter bigger)

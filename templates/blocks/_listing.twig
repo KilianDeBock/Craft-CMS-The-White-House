@@ -1,0 +1,17 @@
+{% if c.pages is defined and c.pages is not empty %}
+    <ul class="listing">
+        {% for pageEntry in c.pages %}
+            {% if c.subpages %}
+                {% for subpageEntry in pageEntry.children() %}
+                    {% include 'components/_listItem' with {
+                        page: subpageEntry,
+                    } %}
+                {% endfor %}
+            {% else %}
+                {% include 'components/_listItem' with {
+                    page: pageEntry,
+                } %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}
