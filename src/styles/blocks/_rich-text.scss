@@ -46,4 +46,9 @@
   a:not(:hover) {
     color: v.$primary-accent;
   }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }

@@ -1,4 +1,4 @@
-dateModified: 1673962156
+dateModified: 1674210589
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -62,7 +62,6 @@ meta:
     234eadcc-f114-47fe-a58a-7dedd1ff560b: 'Form Title' # Form Title
     280d61a5-e523-4275-99b1-081440834032: 'Email Example' # Email Example
     398eea1c-c330-45d8-b628-c184e8eb94a3: 'Button Text' # Button Text
-    422c261b-85e5-4648-b0a6-10c85dc5691d: 'x3 Grid List' # x3 Grid List
     462be729-9fd9-48e7-bb39-48bfd0d00a70: 'Text With Image' # Text With Image
     601ae163-99d1-46f9-858b-37589e119ab1: Title # Title
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
@@ -80,23 +79,24 @@ meta:
     59851fed-6f3d-4369-b887-796f1a6ec5df: 'Zip Code Example' # Zip Code Example
     65724e68-da04-4ed5-8886-93db1c160245: 'About Title' # About Title
     69891a2d-774d-42b8-8d50-cc9a114b24e8: 'Translations Blog' # Translations Blog
-    81287c45-43c9-4bc2-a59f-6bfd2355b2d0: Filter
+    81287c45-43c9-4bc2-a59f-6bfd2355b2d0: Filter # Filter
     794365a4-f390-43f7-853a-9d02b739bc19: pages # pages
     77577163-1b22-43a5-9e0e-5bfccb5b9fdb: Tags # Tags
     a1ecb538-5c70-4593-b2be-0db6386edffd: Pages # Pages
     a3a137ec-21ef-4b01-a9ad-2ef8384eb451: 'Address Name' # Address Name
     a2954b49-fe7a-4050-b64e-6e48f4c228a8: a # a
     ab02d1a4-b342-4861-8ca8-eca778042961: 'External Link' # External Link
+    ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471: Title
     adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8: Links # Links
     aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: 'Zip Code' # Zip Code
     b9b20de9-5a5e-497f-8c36-c67d29ddcdc8: All # All
     b9f18fe1-9976-4d62-abf6-8e133495e7d6: Title # Title
     b12a696b-b0f6-4259-8d02-1e2a99f17dc2: 'Link Titles' # Link Titles
-    b17dfb6b-773f-4316-9cc7-e6c97dcf6c24: 'side menu' # side menu
     b97cc793-a322-48f0-a984-237f34532a4e: Pages # Pages
     b8558ecb-a164-4c5c-9b9d-1d0ee1b884dc: 'Sign Up' # Sign Up
     b1148404-3272-4249-ad35-fe02e4097a71: 'Logo: Text' # Logo: Text
     bb70b3f5-bb72-4585-8ab4-e53073080fb5: Translations # Translations
+    bcb0fc45-a18c-4b1e-b20b-3e434c6c44c9: Images # Images
     bfc1f3cc-23bd-4276-96aa-70145ecb622d: 'Rich Text' # Rich Text
     bfd17c69-ccb1-4401-b92e-8ef00390fb65: 'Translations Languages' # Translations Languages
     c0b3a23c-e48b-46a9-a84b-5cd35fcc16c9: 'Blog Entry' # Blog Entry
@@ -109,6 +109,7 @@ meta:
     ca34e5c9-7022-4cb1-b264-963748529589: Spanish # Spanish
     cd5a821b-2d99-4eff-adc1-37b4248bbad0: Text # Text
     cdda21e4-5046-411c-b78d-3ef131e76c35: Image # Image
+    cf99a4fb-ecb1-4381-bd9b-82f627fef3ad: Images # Images
     d3c532c4-5b25-488c-bce3-82b2c55711b9: Default # Default
     d5da3258-5935-460e-8030-ca08e809e2c6: 'Form Mobile Notification' # Form Mobile Notification
     d5e83a19-472e-44ba-b93a-bd56e2cc0fa3: Submit # Submit

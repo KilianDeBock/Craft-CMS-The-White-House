@@ -1,43 +1,43 @@
 field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
 fieldLayouts:
-  99cc52c9-444b-40fe-be22-e96085f0abf9:
+  fb0d10cf-f26b-4bdc-9043-575e099a5f44:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 601ae163-99d1-46f9-858b-37589e119ab1 # Title
+            fieldUid: ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ef0698f7-bcfe-467e-85f4-6143f97e7c47
+            uid: 217d2050-e295-464d-8a60-0de83b6dd2d7
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b97cc793-a322-48f0-a984-237f34532a4e # Pages
+            fieldUid: bcb0fc45-a18c-4b1e-b20b-3e434c6c44c9 # Images
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6f676a09-2e2d-4604-9ee4-ed8a10b86a92
+            uid: dd14831c-55ac-431d-b024-0cb814be6c07
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 0f7892e1-5296-48d1-824d-d2827d4db709
+        uid: 4a1b5353-3d00-41fb-8fb1-654106b70839
         userCondition: null
 fields:
-  601ae163-99d1-46f9-858b-37589e119ab1: # Title
-    columnSuffix: tgkjtnsy
+  ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471:
+    columnSuffix: hqknrskc
     contentColumnType: text
     fieldGroup: null
-    handle: titleText
+    handle: imagesTitle
     instructions: null
     name: Title
     searchable: false
@@ -53,41 +53,55 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b97cc793-a322-48f0-a984-237f34532a4e: # Pages
+  bcb0fc45-a18c-4b1e-b20b-3e434c6c44c9: # Images
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: pages
+    handle: images
     instructions: null
-    name: Pages
+    name: Images
     searchable: false
     settings:
       allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      defaultUploadLocationSubpath: null
       localizeRelations: false
       maxRelations: null
       minRelations: 1
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
+      restrictedLocationSubpath: null
       selectionCondition:
         __assoc__:
           -
             - elementType
-            - craft\elements\Entry
+            - craft\elements\Asset
           -
             - fieldContext
             - global
           -
             - class
-            - craft\elements\conditions\entries\EntryCondition
+            - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
       showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
       source: null
       sources:
-        - 'section:0d091394-f7ed-4782-b499-a2e3e8e97b75' # Modular Pages
+        - 'volume:36d3245f-b1be-4e8c-9968-66bbe04dcbee' # Images
       targetSiteId: null
       validateRelatedElements: false
-      viewMode: null
+      viewMode: large
     translationKeyFormat: null
     translationMethod: site
-    type: craft\fields\Entries
-handle: sideMenu
-name: 'side menu'
-sortOrder: 11
+    type: craft\fields\Assets
+handle: images
+name: Images
+sortOrder: 10
