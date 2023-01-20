@@ -1,4 +1,4 @@
-dateModified: 1674212396
+dateModified: 1674216875
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -56,6 +56,7 @@ meta:
     49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: Email # Email
     70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     75d8e328-49f4-4be8-b526-4258c4281f53: Text # Text
+    78c9b582-40ee-4503-943b-2395950427b0: Pages
     97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e: 'Rich Text' # Rich Text
     98ef6ab3-35cf-4a15-bbc9-d97a7abd092f: 'Short Line / Text Breaker' # Short Line / Text Breaker
     185c48f4-b753-45b8-8cd9-d10602eb510b: 'Menu (Close)' # Menu (Close)
@@ -65,6 +66,7 @@ meta:
     462be729-9fd9-48e7-bb39-48bfd0d00a70: 'Text With Image' # Text With Image
     601ae163-99d1-46f9-858b-37589e119ab1: Title # Title
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
+    813c77d8-e0a7-4bd4-b4b2-61d29ca5f599: 'Top Listing'
     814e48ef-82ee-487d-a733-ae1d243784ba: Languages # Languages
     982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home

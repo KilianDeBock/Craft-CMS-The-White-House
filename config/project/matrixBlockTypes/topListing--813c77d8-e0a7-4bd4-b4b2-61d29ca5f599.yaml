@@ -1,0 +1,61 @@
+field: 627d9316-0912-46e5-9fbc-5897249c7779 # Content
+fieldLayouts:
+  1d3ef9bf-f1bc-4e45-b7f7-d5bc1aef6c92:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 78c9b582-40ee-4503-943b-2395950427b0
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb793ef2-13fc-4a77-9bd3-3cc770627f1e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dafb9f7a-fd6a-4b8e-8b86-1b5dbda2421c
+        userCondition: null
+fields:
+  78c9b582-40ee-4503-943b-2395950427b0:
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: pages
+    instructions: 'Needs 11 entries, First one is bigger'
+    name: Pages
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 11
+      minRelations: 11
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:0d091394-f7ed-4782-b499-a2e3e8e97b75' # Modular Pages
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: topListing
+name: 'Top Listing'
+sortOrder: 10
