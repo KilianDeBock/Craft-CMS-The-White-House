@@ -58,4 +58,4 @@ fields:
     type: craft\fields\Entries
 handle: pageBlocks
 name: 'Page Blocks'
-sortOrder: 8
+sortOrder: 9

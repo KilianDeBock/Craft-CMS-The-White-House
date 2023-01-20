@@ -1,5 +1,8 @@
+{% if classes is not defined or classes is empty %}
+    {% set classes = "" %}
+{% endif %}
 {% if links is defined %}
-    <ul class="links">
+    <ul class="links {{ classes }}">
         {% for link in links %}
             <li><a class="links__link" href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}

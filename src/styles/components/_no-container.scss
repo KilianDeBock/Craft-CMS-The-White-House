@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.beak-free,
+.bf,
+.no-container {
+  width: 100vw;
+  position: relative;
+  margin-left: calc(-50vw + 50%);
+}

@@ -104,4 +104,4 @@ fields:
     type: craft\fields\Assets
 handle: images
 name: Images
-sortOrder: 11
+sortOrder: 12

@@ -1,0 +1,94 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.big-image-header--container {
+  @include m.mq(lg) {
+    padding: 0 v.$spacing-medium
+
+  }
+}
+
+.big-image-header {
+  position: relative;
+  @include m.box-radius;
+  overflow: hidden;
+  margin: 0 v.$spacing-xl;
+
+  @include m.mq(lg) {
+    max-width: 140vh;
+    margin: 0 auto;
+  }
+
+  .big-image-header__image {
+    width: 100%;
+    height: 100%;
+
+    @include m.mq(lg) {
+      @include m.box-radius;
+    }
+  }
+
+  @include m.mq(lg) {
+    .big-image-header__content--container {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      max-width: 50%;
+      background-color: v.$primary-background;
+    }
+
+    .big-image-header__content {
+      padding: v.$spacing-xl;
+    }
+  }
+
+  .big-image-header__about-container {
+    position: relative;
+    padding: v.$spacing-sm;
+    background-color: v.$secondary-accent;
+
+    .big-image-header__about {
+      font-size: v.$font-xsm;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      @include m.mq(lg) {
+        position: absolute;
+        top: 50%;
+        left: calc(-50vw + .5rem);
+        width: 100vw;
+        transform: translateY(-50%);
+        transform: rotate(90deg);
+        text-align: center;
+      }
+    }
+  }
+
+  .big-image-header__title {
+    @include m.font2;
+    font-size: v.$heading-4;
+    padding: v.$spacing-base 0;
+    border-bottom: 1px solid v.$accent;
+  }
+
+  .big-image-header__links {
+    margin-bottom: v.$spacing-medium;
+  }
+
+  .big-image-header__link {
+    font-size: v.$font-sm;
+    display: block;
+    padding: v.$spacing-base v.$spacing-medium;
+    text-align: center;
+    color: v.$light;
+    border-radius: v.$spacing-large;
+    background-color: v.$primary-accent;
+
+    @include m.mq(lg) {
+      position: absolute;
+      bottom: v.$spacing-base;
+      left: v.$spacing-base;
+    }
+  }
+}

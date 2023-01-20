@@ -1,0 +1,25 @@
+{% if c.image is not empty and c.headerTitle is not empty and c.pages is not empty and c.about is not empty %}
+    <div class="no-container big-image-header--container">
+        <section class="big-image-header">
+            {% include 'components/_image' with {
+                image: c.image.one(),
+                classes: 'big-image-header__image'
+            } %}
+            <article class="big-image-header__content--container">
+                <div class="big-image-header__about-container">
+                    <p class="big-image-header__about">{{ c.about }}</p>
+                </div>
+                <div class="big-image-header__content">
+                    <h1 class="big-image-header__title">{{ c.headerTitle }}</h1>
+                    {% include 'components/_links' with {
+                        links: c.pages,
+                        classes: 'big-image-header__links'
+                    } %}
+                </div>
+            </article>
+            {% if c.extraLink is not empty %}
+                <a href="{{ c.extraLink.one().url }}" class="big-image-header__link">{{ c.extraLink.one().title }}</a>
+            {% endif %}
+        </section>
+    </div>
+{% endif %}

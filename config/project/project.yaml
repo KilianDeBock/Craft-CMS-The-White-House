@@ -1,4 +1,4 @@
-dateModified: 1674216875
+dateModified: 1674227844
 email:
   fromEmail: admin@lyttle.it
   fromName: 'Craft White House'
@@ -14,6 +14,7 @@ fs:
 meta:
   __names__:
     0a1aa8d3-2672-42a2-ad0d-bfed6fe87d3c: 'Static Variables' # Static Variables
+    0c9bbbeb-dea9-4a05-8459-6211a1af5104: 'Extra Link' # Extra Link
     0d091394-f7ed-4782-b499-a2e3e8e97b75: 'Modular Pages' # Modular Pages
     0d6b7f03-afd5-40de-8d15-84bd795db091: 'Logo: Primary Background' # Logo: Primary Background
     0dc0a7c6-ac9a-46d1-81bc-b3e03e69eaae: Blog # Blog
@@ -33,12 +34,14 @@ meta:
     6b0f3092-774c-4b18-879a-ebc956384fc5: 'Page Blocks' # Page Blocks
     6c1badfa-a97e-4c80-baf1-b7704fbd2dfc: 'Button Style Selector' # Button Style Selector
     6f01013d-fa0e-4309-b260-3aae26cb9f50: 'Open Category' # Open Category
+    8b65a32a-b14a-411c-a169-4c01fe8c5b08: Title # Title
     8c7e7e8c-3551-46bc-b9c4-72b2207fa5c7: 'Email Example' # Email Example
     9c43c6f3-3730-4df2-85c6-7df3e3e50bb4: 'Zip Code' # Zip Code
     9cc86ca9-d609-4a19-af34-9619573d5e5c: Default # Default
     09cd00ee-24b9-41a4-a63c-23dc83807992: 'Image Banner' # Image Banner
     9e054beb-e66b-47da-9f1c-e3ec067dae3a: 'Link Text' # Link Text
     9e8e49b9-ae55-46ee-a6e5-1eac97d296b2: Translations # Translations
+    9e587c58-48ea-42b0-a474-68e987228fda: Image # Image
     9f68af31-28ab-413c-8bc3-c063b0ce7310: 'Internal Links' # Internal Links
     19e20f27-3724-4b47-b3e9-b0ad2383a0b2: Home # Home
     22a8b269-3cf6-4503-aced-1a2d713cb5d5: 'Zip Code Example' # Zip Code Example
@@ -56,7 +59,7 @@ meta:
     49ec9161-f744-4ea6-9bed-e9fe1c3ff75b: Email # Email
     70faf614-5c87-468d-bcc2-de26a9b4822f: Email # Email
     75d8e328-49f4-4be8-b526-4258c4281f53: Text # Text
-    78c9b582-40ee-4503-943b-2395950427b0: Pages
+    78c9b582-40ee-4503-943b-2395950427b0: Pages # Pages
     97dbb6aa-a455-41f0-9fcd-7b78bcb5ad7e: 'Rich Text' # Rich Text
     98ef6ab3-35cf-4a15-bbc9-d97a7abd092f: 'Short Line / Text Breaker' # Short Line / Text Breaker
     185c48f4-b753-45b8-8cd9-d10602eb510b: 'Menu (Close)' # Menu (Close)
@@ -66,7 +69,7 @@ meta:
     462be729-9fd9-48e7-bb39-48bfd0d00a70: 'Text With Image' # Text With Image
     601ae163-99d1-46f9-858b-37589e119ab1: Title # Title
     627d9316-0912-46e5-9fbc-5897249c7779: Content # Content
-    813c77d8-e0a7-4bd4-b4b2-61d29ca5f599: 'Top Listing'
+    813c77d8-e0a7-4bd4-b4b2-61d29ca5f599: 'Top Listing' # Top Listing
     814e48ef-82ee-487d-a733-ae1d243784ba: Languages # Languages
     982ea9f6-3838-4aa0-8b72-b48ef98a4c8d: 'Logo: Min-Text' # Logo: Min-Text
     1542fba4-ab16-40d2-b7c5-dc3c5606c161: Home # Home
@@ -75,6 +78,7 @@ meta:
     4098e93e-04ad-4937-9f2f-f6e6b0eed8a8: Select # Select
     4315df8b-7cf8-440b-8a1c-bec0579abe4b: a # a
     5007c2b1-84b7-43a5-a14c-05c95607d86b: ' La casa Blanca' #  La casa Blanca
+    6117bc72-5eb6-4b0c-8853-ea9aa0a03485: About # About
     7844f052-4862-4f54-9136-6f4040b5fdf6: a # a
     8010d3fc-e347-4a09-9385-9dba8ef5b951: 'Translations Navigation' # Translations Navigation
     8386ab4f-1762-400b-af62-0239f5dd2cc2: Translations # Translations
@@ -91,6 +95,7 @@ meta:
     ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471: Title # Title
     adb2b96a-91b2-4770-b6a4-3ba7d29d9dc8: Links # Links
     aee1fa2c-34d8-49d8-a8d7-18d553e5c7ce: 'Zip Code' # Zip Code
+    af47fc03-50d1-4b99-9c27-d5ad7e7b3413: Pages # Links
     b9b20de9-5a5e-497f-8c36-c67d29ddcdc8: All # All
     b9f18fe1-9976-4d62-abf6-8e133495e7d6: Title # Title
     b12a696b-b0f6-4259-8d02-1e2a99f17dc2: 'Link Titles' # Link Titles
@@ -123,6 +128,7 @@ meta:
     dc8cf8ed-171d-4143-9509-4368e2db57b9: 'Address City' # Address City
     dd60b55d-a074-42e5-9421-5d350544bd5b: 'Overwrite Level Depth' # Overwrite Level Depth
     e1e48183-239e-4251-8559-626b99e9336c: Common # Common
+    e5680422-68b2-4157-add4-cc74b9910e6d: 'Big Image Header' # Big Image Header
     eaa4741e-d911-4d7d-b53d-22870f138724: Flipped # Flipped
     edacf0d0-f17c-425b-971c-a992f1bda244: 'Logo: Primary Lined' # Logo: Primary Lined
     ef2f048f-b5af-470b-b0da-708caa33f4a3: Image # Image
