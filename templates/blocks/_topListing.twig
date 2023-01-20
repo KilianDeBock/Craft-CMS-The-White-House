@@ -1,0 +1,10 @@
+{% if c.pages is not empty and c.pages | length == 11 %}
+    <ul class="listing top--listing">
+        {% for page in c.pages %}
+            {% include 'components/_listItem' with {
+                page,
+                type: loop.index == 1 ? 'featured' : ''
+            } %}
+        {% endfor %}
+    </ul>
+{% endif %}

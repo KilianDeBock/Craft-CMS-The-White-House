@@ -1,6 +1,12 @@
 {% if page is defined %}
     {% set category = page.parent %}
-    <li class="listing__item">
+    <li class="listing__item{% if type is defined and type == "featured" %} listing__item--featured{% endif %}">
+        {% if type is defined and type == "featured" and page.image is defined and page.image is not empty %}
+            {% include 'components/_image' with {
+                image: page.image.one(),
+                classes: 'listing__image',
+            } %}
+        {% endif %}
         <a class="listing__link link hidden" href="{{ page.url }}">{{ page.title }}</a>
         <div class="listing__details">
             <em class="listing__date">{{ page.postDate|date('F j, Y') }}</em>

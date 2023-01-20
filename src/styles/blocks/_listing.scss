@@ -17,6 +17,15 @@
       margin-top: v.$spacing-xl;
     }
 
+    &.listing__item--featured {
+      .listing__image {
+        aspect-ratio: 1;
+        object-fit: cover;
+        @include m.box-radius;
+        margin-bottom: v.$spacing-base;
+      }
+    }
+
     .listing__link {
       @include m.font2;
       font-size: v.$heading-2;
