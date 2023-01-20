@@ -1,0 +1,7 @@
+{% if links is defined %}
+    <ul class="links">
+        {% for link in links %}
+            <li><a class="links__link" href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}

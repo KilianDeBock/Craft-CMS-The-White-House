@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: v.$spacing-large;
+  gap: v.$spacing-medium;
+
+  li {
+    border-left: v.$spacing-xsm solid v.$secondary;
+
+    .links__link {
+      display: block;
+      padding: v.$spacing-sm v.$spacing-medium;
+    }
+
+    &:hover {
+      color: v.$selection;
+      border-color: v.$selection;
+    }
+  }
+}

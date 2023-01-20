@@ -10,13 +10,9 @@
                 <hr class="text-with-image__spacer">
             {% endif %}
             <p>{{ c.text }}</p>
-            {% if c.internalLinks is defined %}
-                <ul class="text-with-image__links">
-                    {% for link in c.internalLinks %}
-                        <li><a class="text-with-image__link" href="{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
+            {% include 'components/_links' with {
+                links: c.internalLinks
+            } %}
         </article>
     </section>
 {% endif %}
