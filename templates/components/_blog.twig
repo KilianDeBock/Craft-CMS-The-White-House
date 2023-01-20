@@ -3,6 +3,11 @@
         <em class="blog__date">{{ entry.postDate|date('F j, Y') }}</em>
     {% endif %}
     <h1 class="blog__title">{{ entry.title }}</h1>
+    {% if entry.description %}
+        <article class="blog__description">
+            {{ entry.description }}
+        </article>
+    {% endif %}
     {% include 'components/_breadcrumbs' %}
 </section>
 {% set showBigOne = entry.children | length > 1 %}

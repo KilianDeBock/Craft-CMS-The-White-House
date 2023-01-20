@@ -1,9 +1,13 @@
 {# Check if required fields are defined. #}
+{% set background = " image-banner__darken" %}
+{% if c.text is empty and c.linkUrl is empty and c.linkText is empty %}
+    {% set background = "" %}
+{% endif %}
 {% if c.image is defined %}
     <div class="image-banner__wrapper">
-        <section class="image-banner">
+        <section class="image-banner{{ background }}">
             {% include 'components/_image' with { image: c.image.one(), classes: "image-banner__image" } %}
-            {% if c.text is not empty or c.linkUrl is not empty and c.linkUrl is not empty %}
+            {% if c.text is not empty or c.linkUrl is not empty and c.linkText is not empty %}
                 <article class="image-banner__content">
                     {% if c.text is not empty %}
                         <div class="image-banner__text">{{ c.text }}</div>

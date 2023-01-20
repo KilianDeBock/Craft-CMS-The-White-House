@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471
+            fieldUid: ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471 # Title
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 4a1b5353-3d00-41fb-8fb1-654106b70839
         userCondition: null
 fields:
-  ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471:
+  ad01ffd5-6d4e-4f5c-9a0b-89e19ad53471: # Title
     columnSuffix: hqknrskc
     contentColumnType: text
     fieldGroup: null

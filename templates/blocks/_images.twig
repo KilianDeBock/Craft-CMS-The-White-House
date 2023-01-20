@@ -1,0 +1,19 @@
+{% if c.images is not empty %}
+    {% if c.imagesTitle is not empty %}
+        <section class="images__container container">
+        <h2 class="images__title">{{ c.imagesTitle }}</h2>
+    {% endif %}
+    <ul class="images__list{% if c.imagesTitle is empty %} images__container container{% endif %}">
+        {% for image in c.images %}
+            <li>
+                {% include 'components/_image' with {
+                    image,
+                    classes: "images__image",
+                } %}
+            </li>
+        {% endfor %}
+    </ul>
+    {% if c.title is not empty %}
+        </section>
+    {% endif %}
+{% endif %}
