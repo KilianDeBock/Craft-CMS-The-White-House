@@ -81,7 +81,7 @@ fields:
       offLabel: 'The Selected Entry'
       onLabel: 'Only the children of the entry'
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\Lightswitch
 handle: listing
 name: Listing

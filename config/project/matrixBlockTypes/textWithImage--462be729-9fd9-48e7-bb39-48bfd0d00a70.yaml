@@ -94,7 +94,7 @@ fields:
       offLabel: 'Image Left / Text Right'
       onLabel: 'Text Left / Image Right'
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\Lightswitch
   9f68af31-28ab-413c-8bc3-c063b0ce7310: # Internal Links
     columnSuffix: null
@@ -149,7 +149,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\PlainText
   ef2f048f-b5af-470b-b0da-708caa33f4a3: # Image
     columnSuffix: fhwfljcu
@@ -227,7 +227,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\redactor\Field
   f946788c-ff97-49da-a4c6-9add990f5da9: # Title
     columnSuffix: afolcutm
@@ -247,7 +247,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\PlainText
 handle: textWithImage
 name: 'Text With Image'

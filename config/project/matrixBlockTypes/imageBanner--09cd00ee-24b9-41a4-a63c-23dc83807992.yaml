@@ -82,7 +82,7 @@ fields:
       types:
         - url
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\Url
   9e054beb-e66b-47da-9f1c-e3ec067dae3a: # Link Text
     columnSuffix: mymvdxcm
@@ -102,7 +102,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\PlainText
   32de1007-c8b5-4643-974a-64d929c888d0: # Image
     columnSuffix: kyvesusy
@@ -180,7 +180,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\redactor\Field
   77577163-1b22-43a5-9e0e-5bfccb5b9fdb: # Tags
     columnSuffix: xiebevbv
@@ -200,7 +200,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\PlainText
 handle: imageBanner
 name: 'Image Banner'

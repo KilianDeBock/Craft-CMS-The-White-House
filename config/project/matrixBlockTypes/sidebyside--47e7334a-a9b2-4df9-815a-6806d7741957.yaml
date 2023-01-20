@@ -120,7 +120,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\redactor\Field
   eaa4741e-d911-4d7d-b53d-22870f138724: # Flipped
     columnSuffix: rzswqctb
@@ -135,7 +135,7 @@ fields:
       offLabel: 'Image Left - Text Right'
       onLabel: 'Text Left - Image Right'
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\Lightswitch
 handle: sideBySide
 name: 'Side By Side'

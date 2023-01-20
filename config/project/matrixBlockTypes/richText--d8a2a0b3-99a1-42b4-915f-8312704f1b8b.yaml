@@ -48,7 +48,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\redactor\Field
 handle: richText
 name: 'Rich Text'

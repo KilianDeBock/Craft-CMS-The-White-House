@@ -51,7 +51,7 @@ fields:
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: language
     type: craft\fields\PlainText
   bcb0fc45-a18c-4b1e-b20b-3e434c6c44c9: # Images
     columnSuffix: null
