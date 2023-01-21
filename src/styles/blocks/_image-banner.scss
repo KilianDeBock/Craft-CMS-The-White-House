@@ -14,7 +14,10 @@
   width: 100%;
   @include m.box-radius;
   color: white;
-  aspect-ratio: 2.3/1;
+
+  @include m.mq(lg) {
+    aspect-ratio: 2.3/1;
+  }
 
   .image-banner__image {
     position: absolute;
@@ -43,7 +46,7 @@
     width: 100%;
     max-width: 55rem;
     margin: 0 auto;
-    padding: v.$spacing-medium v.$spacing-xl;
+    padding: v.$spacing-6xl v.$spacing-xl v.$spacing-xl;
 
     .image-banner__text,
     .image-banner__text * {
