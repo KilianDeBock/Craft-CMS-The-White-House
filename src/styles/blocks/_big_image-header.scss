@@ -15,7 +15,8 @@
   margin: 0 v.$spacing-xl;
 
   @include m.mq(lg) {
-    max-width: 140vh;
+    max-width: 120rem;
+    max-height: 80vh;
     margin: 0 auto;
   }
 
